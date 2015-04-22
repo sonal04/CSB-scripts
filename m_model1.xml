@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version1" level="3" version="1" fbc:required="false">
+  <model id="pathway_1257604" substanceUnits="substance" timeUnits="dimensionless" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+    <annotation>
+      <listOfGeneAssociations xmlns="http://www.sbml.org/sbml/level3/version1/fbc/version1">
+        <geneAssociation id="ga_1">
+          <gene reference="PDPK1"/>
+        </geneAssociation>
+        <geneAssociation id="ga_2">
+          <gene reference="PDPK1"/>
+        </geneAssociation>
+        <geneAssociation id="ga_3">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="PDPK1"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_4">
+          <and>
+            <gene reference="AKT1"/>
+            <or>
+              <gene reference="THEM4"/>
+              <gene reference="TRIB3"/>
+            </or>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_5">
+          <gene reference="PTEN"/>
+        </geneAssociation>
+        <geneAssociation id="ga_6">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="MDM2"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_7">
+          <and>
+            <gene reference="PDPK1"/>
+            <gene reference="AKT1"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_8">
+          <or>
+            <gene reference="MOV10"/>
+            <gene reference="TNRC6C"/>
+            <gene reference="TNRC6B"/>
+            <gene reference="TNRC6A"/>
+            <gene reference="AGO4"/>
+            <gene reference="AGO1"/>
+            <gene reference="AGO3"/>
+            <gene reference="AGO2"/>
+          </or>
+        </geneAssociation>
+        <geneAssociation id="ga_9">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="CREB1"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_10">
+          <and>
+            <gene reference="AKT1"/>
+            <or>
+              <gene reference="FOXO3"/>
+              <gene reference="FOXO1"/>
+              <gene reference="FOXO4"/>
+            </or>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_11">
+          <gene reference="AKT1"/>
+        </geneAssociation>
+        <geneAssociation id="ga_12">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="TSC2"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_13">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="CHUK"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_14">
+          <and>
+            <gene reference="AKT1"/>
+            <or>
+              <gene reference="GSK3A"/>
+              <gene reference="GSK3B"/>
+            </or>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_15">
+          <and>
+            <gene reference="MAPKAP1"/>
+            <gene reference="AKT1"/>
+            <gene reference="MLST8"/>
+            <gene reference="MTOR"/>
+            <gene reference="RICTOR"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_16">
+          <and>
+            <gene reference="PHLPP2"/>
+            <gene reference="AKT1"/>
+            <gene reference="PHLPP1"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_17">
+          <and>
+            <gene reference="AKT1"/>
+            <or>
+              <gene reference="CDKN1B"/>
+              <gene reference="CDKN1A"/>
+            </or>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_18">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="NR4A1"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_19">
+          <gene reference="PTEN"/>
+        </geneAssociation>
+        <geneAssociation id="ga_20">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="BAD"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_21">
+          <or>
+            <gene reference="PDGFRB"/>
+            <gene reference="PDGFRA"/>
+            <gene reference="PIK3R2_1"/>
+            <gene reference="ERBB3"/>
+            <gene reference="FGF5"/>
+            <gene reference="FYN"/>
+            <gene reference="EGFR"/>
+            <gene reference="FRS2"/>
+            <gene reference="LCK"/>
+            <gene reference="KL"/>
+            <gene reference="EGF"/>
+            <gene reference="ERBB4"/>
+            <gene reference="FGF3"/>
+            <gene reference="PIK3CB"/>
+            <gene reference="TRAT1"/>
+            <gene reference="PIK3CD"/>
+            <gene reference="FGF2"/>
+            <gene reference="HBEGF"/>
+            <gene reference="FGF19"/>
+            <gene reference="FGF18"/>
+            <gene reference="PIK3R1"/>
+            <gene reference="NRG1"/>
+            <gene reference="FGF10"/>
+            <gene reference="FGF17"/>
+            <gene reference="FGF16"/>
+            <gene reference="ERBB2"/>
+            <gene reference="PDGFA"/>
+            <gene reference="PDGFB"/>
+            <gene reference="CD28"/>
+            <gene reference="KLB"/>
+            <gene reference="FGF9"/>
+            <gene reference="FGF8"/>
+            <gene reference="FGF7"/>
+            <gene reference="FGF6"/>
+            <gene reference="FGFR4"/>
+            <gene reference="FGF4"/>
+            <gene reference="FGFR2"/>
+            <gene reference="FGFR3"/>
+            <gene reference="FGF1"/>
+            <gene reference="FGFR1"/>
+            <gene reference="CD80"/>
+            <gene reference="NRG2"/>
+            <gene reference="KITLG"/>
+            <gene reference="VAV1"/>
+            <gene reference="PTPN11"/>
+            <gene reference="KIT"/>
+            <gene reference="GAB1"/>
+            <gene reference="IRS1"/>
+            <gene reference="IRS2"/>
+            <gene reference="NRG4"/>
+            <gene reference="CD86"/>
+            <gene reference="GRB2"/>
+            <gene reference="EREG"/>
+            <gene reference="BTC"/>
+            <gene reference="PIK3CA"/>
+            <gene reference="FGF22"/>
+            <gene reference="FGF23"/>
+            <gene reference="FGF20"/>
+            <gene reference="CD19"/>
+          </or>
+        </geneAssociation>
+        <geneAssociation id="ga_22">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="AKT1S1"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_23">
+          <gene reference="CASP9"/>
+        </geneAssociation>
+        <geneAssociation id="ga_24">
+          <and>
+            <gene reference="AKT1"/>
+            <gene reference="RPS6KB2"/>
+          </and>
+        </geneAssociation>
+        <geneAssociation id="ga_25">
+          <gene reference="AKT1"/>
+        </geneAssociation>
+      </listOfGeneAssociations>
+    </annotation>
+    <listOfCompartments>
+      <compartment id="compartment_876" name="plasma membrane" spatialDimensions="3" size="1" constant="true"/>
+      <compartment id="compartment_7660" name="nucleoplasm" spatialDimensions="3" size="1" constant="true"/>
+      <compartment id="compartment_70101" name="cytosol" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species name="PDPK1[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PI(4,5)P2[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PDPK1:PIP2[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PI(3,4,5)P3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PDPK1:PIP3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="ATP[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S-AKT:PDPK1:PIP3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="ADP[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="Active AKT[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="THEM4/TRIB3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="AKT:PIP3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="AKT:PIP3:THEM4/TRIB3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PTEN mRNA[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PTEN:Mg2+[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="MDM2[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S166,S188-MDM2[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S-AKT:PIP3[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="miR-26A RISC[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PTEN mRNA:miR-26A RISC[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="CREB1[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="ATP[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S133-CREB1[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="ADP[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="Active AKT[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="Forkhead box transcription factor[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="Phospho-Forkhead box transcription factor[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="TSC2[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S939,T1462-TSC2[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="IKKA[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-T23-CHUK[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="GSK3[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S9/21-GSK3[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="TORC2 complex[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="H2O[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="Pi[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-T-AKT[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="PHLPP (Mn2+ cofactor)[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="CDKN1A/B[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-T-CDKN1A/B[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="NR4A1[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S351-NR4A1[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="BAD[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S99-BAD[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="Activator:PI3K[p]" compartment="compartment_876" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="AKT1S1[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S183,T246-AKT1S1[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="CASP9(1-416)[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S196-CASP9(1-416)[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="RPS6KB2[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="p-S15,S356-RPS6KB2[n]" compartment="compartment_7660" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species name="AKT[c]" compartment="compartment_70101" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction name="PDPK1 binds PIP2" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PDPK1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PIP3 recruits PDPK1 to the membrane" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PDPK1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PDPK1 phosphorylates AKT at T308" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and PDPK1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1  and  ( THEM4 or TRIB3 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PTEN mRNA translation negatively regulated by microRNAs" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PTEN</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates MDM2" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and MDM2</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="2" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="2" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT binds PDPK1" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PDPK1 and AKT1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="MIR26A microRNAs bind PTEN mRNA" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( MOV10 or TNRC6C or TNRC6B or TNRC6A or AGO4 or AGO1 or AGO3 or AGO2 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates CREB1" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and CREB1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT can phosphorylate forkhead box transcription factors" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1  and  ( FOXO3 or FOXO1 or FOXO4 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="3" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="3" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT translocates to the nucleus" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates TSC2, inhibiting it" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and TSC2</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="2" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates IKKalpha" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and CHUK</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates GSK3" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1  and  ( GSK3A or GSK3B )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="TORC2 (mTOR) phosphorylates AKT at S473" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: MAPKAP1 and AKT1 and MLST8 and MTOR and RICTOR</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PHLPP dephosphorylates S473 in AKT" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PHLPP2 and AKT1 and PHLPP1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates p21Cip1 and p27Kip1" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1  and  ( CDKN1B or CDKN1A )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT can phosphorylate NR4A1 (NUR77)" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and NR4A1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PTEN dephosphorylates PIP3" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PTEN</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates BAD" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and BAD</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PI3K phosphorylates PIP2 to PIP3" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( PDGFRB or PDGFRA or PIK3R2_1 or ERBB3 or FGF5 or FYN or EGFR or FRS2 or LCK or KL or EGF or ERBB4 or FGF3 or PIK3CB or TRAT1 or PIK3CD or FGF2 or HBEGF or FGF19 or FGF18 or PIK3R1 or NRG1 or FGF10 or FGF17 or FGF16 or ERBB2 or PDGFA or PDGFB or CD28 or KLB or FGF9 or FGF8 or FGF7 or FGF6 or FGFR4 or FGF4 or FGFR2 or FGFR3 or FGF1 or FGFR1 or CD80 or NRG2 or KITLG or VAV1 or PTPN11 or KIT or GAB1 or IRS1 or IRS2 or NRG4 or CD86 or GRB2 or EREG or BTC or PIK3CA or FGF22 or FGF23 or FGF20 or CD19 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates AKT1S1 (PRAS40)" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and AKT1S1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="2" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="2" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT phosphorylates caspase-9" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: CASP9</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="AKT can phosphorylate RSK" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1 and RPS6KB2</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="2" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="2" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction name="PIP3 recruits AKT to the membrane" reversible="false" fast="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: AKT1</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true"/>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+    <fbc:listOfFluxBounds>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+      <fbc:fluxBound fbc:operation="greaterEqual" fbc:value="0"/>
+      <fbc:fluxBound fbc:operation="lessEqual" fbc:value="1000"/>
+    </fbc:listOfFluxBounds>
+  </model>
+</sbml>
