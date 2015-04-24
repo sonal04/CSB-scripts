@@ -1,0 +1,10 @@
+###############
+setting threshold to 5
+
+removing reactions from model:
+	AKT can phosphorylate NR4A1 (NUR77)
+	AKT phosphorylates caspase__9
+E model has 23 reactions left.
+
+removing reactions from model:
+In total M model has 25 reactions left.
