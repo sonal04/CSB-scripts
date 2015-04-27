@@ -1,1046 +1,1045 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
-  <model id="pathway_1257604">
-    <listOfUnitDefinitions>
-      <unitDefinition id="mmol_per_gDW_per_hr">
-        <listOfUnits>
-          <unit kind="mole" scale="-3"/>
-          <unit kind="gram" exponent="-1"/>
-          <unit kind="second" exponent="-1" multiplier="0.000277777777777778"/>
-        </listOfUnits>
-      </unitDefinition>
-    </listOfUnitDefinitions>
-    <listOfCompartments>
-      <compartment id="compartment_876" name="plasma membrane" size="1"/>
-      <compartment id="compartment_7660" name="nucleoplasm" size="1"/>
-      <compartment id="compartment_70101" name="cytosol" size="1"/>
-    </listOfCompartments>
-    <listOfSpecies>
-      <species name="PDPK1[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PI(4,5)P2[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PDPK1:PIP2[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PI(3,4,5)P3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PDPK1:PIP3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="ATP[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S-AKT:PDPK1:PIP3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="ADP[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="Active AKT[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="THEM4/TRIB3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="AKT:PIP3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="AKT:PIP3:THEM4/TRIB3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PTEN mRNA[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PTEN:Mg2+[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="MDM2[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S166,S188-MDM2[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S-AKT:PIP3[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="miR-26A RISC[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PTEN mRNA:miR-26A RISC[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="CREB1[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="ATP[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S133-CREB1[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="ADP[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="Active AKT[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="Forkhead box transcription factor[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="Phospho-Forkhead box transcription factor[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="TSC2[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S939,T1462-TSC2[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="IKKA[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-T23-CHUK[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="GSK3[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S9/21-GSK3[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="TORC2 complex[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="H2O[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="Pi[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-T-AKT[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="PHLPP (Mn2+ cofactor)[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="CDKN1A/B[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-T-CDKN1A/B[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="NR4A1[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S351-NR4A1[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="BAD[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S99-BAD[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="Activator:PI3K[p]" compartment="compartment_876" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="AKT1S1[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S183,T246-AKT1S1[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="CASP9(1-416)[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S196-CASP9(1-416)[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="RPS6KB2[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="p-S15,S356-RPS6KB2[n]" compartment="compartment_7660" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-      <species name="AKT[c]" compartment="compartment_70101" charge="0">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>FORMULA: </p>
-          </html>
-        </notes>
-      </species>
-    </listOfSpecies>
-    <listOfReactions>
-      <reaction name="PDPK1 binds PIP2" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: PDPK1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PIP3 recruits PDPK1 to the membrane" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: PDPK1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PDPK1 phosphorylates AKT at T308" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and PDPK1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1  and  ( THEM4 or TRIB3 )</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PTEN mRNA translation negatively regulated by microRNAs" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: PTEN</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates MDM2" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and MDM2</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="2"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="2"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT binds PDPK1" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: PDPK1 and AKT1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="MIR26A microRNAs bind PTEN mRNA" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: ( MOV10 or TNRC6C or TNRC6B or TNRC6A or AGO4 or AGO1 or AGO3 or AGO2 )</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates CREB1" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and CREB1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT can phosphorylate forkhead box transcription factors" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1  and  ( FOXO3 or FOXO1 or FOXO4 )</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="3"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="3"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT translocates to the nucleus" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates TSC2, inhibiting it" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and TSC2</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="2"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="2"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates IKKalpha" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and CHUK</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates GSK3" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1  and  ( GSK3A or GSK3B )</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="TORC2 (mTOR) phosphorylates AKT at S473" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: MAPKAP1 and AKT1 and MLST8 and MTOR and RICTOR</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PHLPP dephosphorylates S473 in AKT" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: PHLPP2 and AKT1 and PHLPP1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates p21Cip1 and p27Kip1" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1  and  ( CDKN1B or CDKN1A )</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT can phosphorylate NR4A1 (NUR77)" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and NR4A1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PTEN dephosphorylates PIP3" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: PTEN</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates BAD" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and BAD</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PI3K phosphorylates PIP2 to PIP3" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: ( PDGFRB or PDGFRA or PIK3R2_1 or ERBB3 or FGF5 or FYN or EGFR or FRS2 or LCK or KL or EGF or ERBB4 or FGF3 or PIK3CB or TRAT1 or PIK3CD or FGF2 or HBEGF or FGF19 or FGF18 or PIK3R1 or NRG1 or FGF10 or FGF17 or FGF16 or ERBB2 or PDGFA or PDGFB or CD28 or KLB or FGF9 or FGF8 or FGF7 or FGF6 or FGFR4 or FGF4 or FGFR2 or FGFR3 or FGF1 or FGFR1 or CD80 or NRG2 or KITLG or VAV1 or PTPN11 or KIT or GAB1 or IRS1 or IRS2 or NRG4 or CD86 or GRB2 or EREG or BTC or PIK3CA or FGF22 or FGF23 or FGF20 or CD19 )</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates AKT1S1 (PRAS40)" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and AKT1S1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="2"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="2"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT phosphorylates caspase-9" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: CASP9</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="AKT can phosphorylate RSK" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1 and RPS6KB2</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="2"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="2"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction name="PIP3 recruits AKT to the membrane" reversible="false">
-        <notes>
-          <html xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: AKT1</p>
-            <p>SUBSYSTEM: </p>
-          </html>
-        </notes>
-        <listOfReactants>
-          <speciesReference stoichiometry="1"/>
-          <speciesReference stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-    </listOfReactions>
-  </model>
-</sbml>
+<ns0:sbml xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.sbml.org/sbml/level2" xmlns:ns2="http://www.w3.org/1998/Math/MathML" level="2" version="1">
+  <ns0:model id="pathway_1257604">
+    <ns0:listOfUnitDefinitions>
+      <ns0:unitDefinition id="mmol_per_gDW_per_hr">
+        <ns0:listOfUnits>
+          <ns0:unit kind="mole" scale="-3" />
+          <ns0:unit exponent="-1" kind="gram" />
+          <ns0:unit exponent="-1" kind="second" multiplier="0.000277777777777778" />
+        </ns0:listOfUnits>
+      </ns0:unitDefinition>
+    </ns0:listOfUnitDefinitions>
+    <ns0:listOfCompartments>
+      <ns0:compartment id="compartment_876" name="plasma membrane" size="1" />
+      <ns0:compartment id="compartment_7660" name="nucleoplasm" size="1" />
+      <ns0:compartment id="compartment_70101" name="cytosol" size="1" />
+    </ns0:listOfCompartments>
+    <ns0:listOfSpecies>
+      <ns0:species charge="0" compartment="compartment_70101" id="PDPK1[c]" name="PDPK1[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="PI(4,5)P2[p]" name="PI(4,5)P2[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="PDPK1:PIP2[p]" name="PDPK1:PIP2[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="PI(3,4,5)P3[p]" name="PI(3,4,5)P3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="PDPK1:PIP3[p]" name="PDPK1:PIP3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="ATP[c]" name="ATP[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="p-S-AKT:PDPK1:PIP3[p]" name="p-S-AKT:PDPK1:PIP3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="ADP[c]" name="ADP[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="Active AKT[c]" name="Active AKT[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="THEM4/TRIB3[p]" name="THEM4/TRIB3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="AKT:PIP3[p]" name="AKT:PIP3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="AKT:PIP3:THEM4/TRIB3[p]" name="AKT:PIP3:THEM4/TRIB3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="PTEN mRNA[c]" name="PTEN mRNA[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="PTEN:Mg2+[c]" name="PTEN:Mg2+[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="MDM2[c]" name="MDM2[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-S166,S188-MDM2[c]" name="p-S166,S188-MDM2[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="p-S-AKT:PIP3[p]" name="p-S-AKT:PIP3[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="miR-26A RISC[c]" name="miR-26A RISC[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="PTEN mRNA:miR-26A RISC[c]" name="PTEN mRNA:miR-26A RISC[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="CREB1[n]" name="CREB1[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="ATP[n]" name="ATP[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="p-S133-CREB1[n]" name="p-S133-CREB1[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="ADP[n]" name="ADP[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="Active AKT[n]" name="Active AKT[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="Forkhead box transcription factor[n]" name="Forkhead box transcription factor[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="Phospho-Forkhead box transcription factor[n]" name="Phospho-Forkhead box transcription factor[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="TSC2[c]" name="TSC2[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-S939,T1462-TSC2[c]" name="p-S939,T1462-TSC2[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="IKKA[c]" name="IKKA[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-T23-CHUK[c]" name="p-T23-CHUK[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="GSK3[c]" name="GSK3[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-S9/21-GSK3[c]" name="p-S9/21-GSK3[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="TORC2 complex[c]" name="TORC2 complex[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="H2O[c]" name="H2O[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="Pi[c]" name="Pi[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-T-AKT[c]" name="p-T-AKT[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="PHLPP (Mn2+ cofactor)[c]" name="PHLPP (Mn2+ cofactor)[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="CDKN1A/B[c]" name="CDKN1A/B[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-T-CDKN1A/B[c]" name="p-T-CDKN1A/B[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="NR4A1[n]" name="NR4A1[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="p-S351-NR4A1[n]" name="p-S351-NR4A1[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="BAD[c]" name="BAD[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-S99-BAD[c]" name="p-S99-BAD[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_876" id="Activator:PI3K[p]" name="Activator:PI3K[p]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="AKT1S1[c]" name="AKT1S1[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-S183,T246-AKT1S1[c]" name="p-S183,T246-AKT1S1[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="CASP9(1-416)[c]" name="CASP9(1-416)[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="p-S196-CASP9(1-416)[c]" name="p-S196-CASP9(1-416)[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="RPS6KB2[n]" name="RPS6KB2[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_7660" id="p-S15,S356-RPS6KB2[n]" name="p-S15,S356-RPS6KB2[n]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+      <ns0:species charge="0" compartment="compartment_70101" id="AKT[c]" name="AKT[c]">
+        <ns0:notes>
+          <html:html>
+            <html:p>FORMULA: </html:p>
+          </html:html>
+        </ns0:notes>
+      </ns0:species>
+    </ns0:listOfSpecies>
+    <ns0:listOfReactions>
+      <ns0:reaction id="PDPK1 binds PIP2" name="PDPK1 binds PIP2" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PDPK1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PIP3 recruits PDPK1 to the membrane" name="PIP3 recruits PDPK1 to the membrane" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PDPK1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PDPK1 phosphorylates AKT at T308" name="PDPK1 phosphorylates AKT at T308" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PDPK1 and AKT1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation" name="THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1  and  ( THEM4 or TRIB3 )</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PTEN mRNA translation negatively regulated by microRNAs" name="PTEN mRNA translation negatively regulated by microRNAs" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PTEN</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates MDM2" name="AKT phosphorylates MDM2" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and MDM2</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="2" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="2" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT binds PDPK1" name="AKT binds PDPK1" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PDPK1 and AKT1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="MIR26A microRNAs bind PTEN mRNA" name="MIR26A microRNAs bind PTEN mRNA" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: ( MOV10 or TNRC6C or TNRC6B or TNRC6A or AGO4 or AGO1 or AGO3 or AGO2 )</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates CREB1" name="AKT phosphorylates CREB1" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and CREB1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT can phosphorylate forkhead box transcription factors" name="AKT can phosphorylate forkhead box transcription factors" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1  and  ( FOXO3 or FOXO1 or FOXO4 )</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="3" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="3" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT translocates to the nucleus" name="AKT translocates to the nucleus" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates TSC2, inhibiting it" name="AKT phosphorylates TSC2, inhibiting it" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and TSC2</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="2" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="2" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates IKKalpha" name="AKT phosphorylates IKKalpha" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and CHUK</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates GSK3" name="AKT phosphorylates GSK3" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1  and  ( GSK3A or GSK3B )</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="TORC2 (mTOR) phosphorylates AKT at S473" name="TORC2 (mTOR) phosphorylates AKT at S473" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: MAPKAP1 and AKT1 and MLST8 and MTOR and RICTOR</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PHLPP dephosphorylates S473 in AKT" name="PHLPP dephosphorylates S473 in AKT" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PHLPP2 and AKT1 and PHLPP1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates p21Cip1 and p27Kip1" name="AKT phosphorylates p21Cip1 and p27Kip1" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1  and  ( CDKN1B or CDKN1A )</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT can phosphorylate NR4A1 (NUR77)" name="AKT can phosphorylate NR4A1 (NUR77)" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and NR4A1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PTEN dephosphorylates PIP3" name="PTEN dephosphorylates PIP3" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: PTEN</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates BAD" name="AKT phosphorylates BAD" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and BAD</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PI3K phosphorylates PIP2 to PIP3" name="PI3K phosphorylates PIP2 to PIP3" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: ( PDGFRB or PDGFRA or PIK3R2_1 or ERBB3 or FGF5 or FYN or EGFR or FRS2 or LCK or KL or EGF or ERBB4 or FGF3 or PIK3CB or TRAT1 or PIK3CD or FGF2 or HBEGF or FGF19 or FGF18 or PIK3R1 or NRG1 or FGF10 or FGF17 or FGF16 or ERBB2 or PDGFA or PDGFB or CD28 or KLB or FGF9 or FGF8 or FGF7 or FGF6 or FGFR4 or FGF4 or FGFR2 or FGFR3 or FGF1 or FGFR1 or CD80 or NRG2 or KITLG or VAV1 or PTPN11 or KIT or GAB1 or IRS1 or IRS2 or NRG4 or CD86 or GRB2 or EREG or BTC or PIK3CA or FGF22 or FGF23 or FGF20 or CD19 )</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates AKT1S1 (PRAS40)" name="AKT phosphorylates AKT1S1 (PRAS40)" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and AKT1S1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="2" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="2" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT phosphorylates caspase-9" name="AKT phosphorylates caspase-9" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: CASP9</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="AKT can phosphorylate RSK" name="AKT can phosphorylate RSK" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1 and RPS6KB2</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="2" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="2" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+      <ns0:reaction id="PIP3 recruits AKT to the membrane" name="PIP3 recruits AKT to the membrane" reversible="false">
+        <ns0:notes>
+          <html:html>
+            <html:p>GENE_ASSOCIATION: AKT1</html:p>
+            <html:p>SUBSYSTEM: </html:p>
+          </html:html>
+        </ns0:notes>
+        <ns0:listOfReactants>
+          <ns0:speciesReference stoichiometry="1" />
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfReactants>
+        <ns0:listOfProducts>
+          <ns0:speciesReference stoichiometry="1" />
+        </ns0:listOfProducts>
+        <ns0:kineticLaw>
+          <ns2:math>
+            <ns2:ci> FLUX_VALUE </ns2:ci>
+          </ns2:math>
+          <ns0:listOfParameters>
+            <ns0:parameter id="LOWER_BOUND" units="mmol_per_gDW_per_hr" value="0" />
+            <ns0:parameter id="OBJECTIVE_COEFFICIENT" units="dimensionless" value="0" />
+            <ns0:parameter id="UPPER_BOUND" units="mmol_per_gDW_per_hr" value="1000" />
+            <ns0:parameter id="FLUX_VALUE" units="mmol_per_gDW_per_hr" value="0" />
+          </ns0:listOfParameters>
+        </ns0:kineticLaw>
+      </ns0:reaction>
+    </ns0:listOfReactions>
+  </ns0:model>
+</ns0:sbml>
