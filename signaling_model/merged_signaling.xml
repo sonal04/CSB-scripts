@@ -1,0 +1,3363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model>
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" scale="-3"/>
+          <unit kind="gram" exponent="-1"/>
+          <unit kind="second" exponent="-1" multiplier="0.000277777777777778"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="e" name="extracellular" size="1"/>
+      <compartment id="c" name="cytosol" size="1"/>
+      <compartment id="p" name="periplasm" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_species_202210_compartment_70101" name="PDPK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2219520_compartment_876" name="PDPK1:PIP2 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_179856_compartment_876" name="PI(4,5)P2 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_377179_compartment_876" name="PDPK1:PIP3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_179838_compartment_876" name="PI(3,4,5)P3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2317313_compartment_876" name="p-S-AKT:PDPK1:PIP3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_202074_compartment_70101" name="Active AKT [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_29370_compartment_70101" name="ADP [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_113592_compartment_70101" name="ATP [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2400007_compartment_876" name="THEM4/TRIB3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2317329_compartment_876" name="AKT:PIP3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199453_compartment_876" name="AKT:PIP3:THEM4/TRIB3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2318746_compartment_70101" name="PTEN mRNA [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199426_compartment_70101" name="PTEN:Mg2+ [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198644_compartment_70101" name="MDM2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198638_compartment_70101" name="p-S166,S188-MDM2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2317310_compartment_876" name="p-S-AKT:PIP3 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2318737_compartment_70101" name="miR-26A RISC [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2318750_compartment_70101" name="PTEN mRNA:miR-26A RISC [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111910_compartment_7660" name="p-S133-CREB1 [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_29358_compartment_7660" name="ATP [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_52777_compartment_7660" name="CREB1 [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_113582_compartment_7660" name="ADP [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199272_compartment_7660" name="Forkhead box transcription factor [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199269_compartment_7660" name="Phospho-Forkhead box transcription factor [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_202072_compartment_7660" name="Active AKT [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199484_compartment_70101" name="p-S939,T1462-TSC2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_2980548_compartment_70101" name="TSC2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_168104_compartment_70101" name="IKKA [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198615_compartment_70101" name="p-T23-CHUK [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198358_compartment_70101" name="GSK3 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198373_compartment_70101" name="p-S9/21-GSK3 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_202084_compartment_70101" name="p-T-AKT [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_29372_compartment_70101" name="Pi [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_29356_compartment_70101" name="H2O [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198625_compartment_70101" name="CDKN1A/B [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198605_compartment_70101" name="p-T-CDKN1A/B [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199846_compartment_7660" name="p-S351-NR4A1 [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199831_compartment_7660" name="NR4A1 [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_50662_compartment_70101" name="BAD [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198335_compartment_70101" name="p-S99-BAD [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_200155_compartment_70101" name="AKT1S1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_200163_compartment_70101" name="p-S183,T246-AKT1S1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_114257_compartment_70101" name="CASP9(1-416) [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198636_compartment_70101" name="p-S196-CASP9(1-416) [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199844_compartment_7660" name="p-S15,S356-RPS6KB2 [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_199877_compartment_7660" name="RPS6KB2 [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_202088_compartment_70101" name="AKT [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109837_compartment_70101" name="p-S218,S222-MAP2K1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109794_compartment_876" name="Activated RAF1 complex:MEK1 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109793_compartment_876" name="14-3-3:p-S259,Y340,Y341,S621-RAF1:RAS:GTP [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_112281_compartment_7660" name="Calmodulin:CaMK IV [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111900_compartment_70101" name="Calmodulin:CaMK IV [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111904_compartment_7660" name="phospho-CaMK IV:Calmodulin [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186811_compartment_876" name="PDGF:Phospho-PDGF receptor dimer [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186795_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:PLC-gamma [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_167682_compartment_876" name="PLCG1 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_74294_compartment_70101" name="4xCa2+:CaM [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_57900_compartment_70101" name="CAMK4 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109795_compartment_876" name="Activated RAF1 complex:MEK2 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109848_compartment_70101" name="p-S,T-MAP2K2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111911_compartment_7660" name="phospho-CREB dimer [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186792_compartment_876" name="PDGF receptor monomer [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186766_compartment_876" name="PDGF:PDGF receptor dimer [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_380760_compartment_984" name="Active PDGF dimers (AA, AB, BB) [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109789_compartment_876" name="14-3-3:p-S259,S621-RAF1:RAS:GTP [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111922_compartment_70101" name="PKA tetramer [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111920_compartment_70101" name="PKA catalytic subunit [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111923_compartment_70101" name="cAMP:PKA regulatory subunit [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_30389_compartment_70101" name="cAMP [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111917_compartment_7660" name="Protein Kinase A, catalytic subunits [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_112406_compartment_876" name="Activated RAF1 complex:MEK [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_112398_compartment_70101" name="MEK [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_74693_compartment_70101" name="PI3K [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186789_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:PI3K [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111294_compartment_70101" name="PPi [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186839_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:SHP2 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_162563_compartment_70101" name="PTPN11 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389079_compartment_876" name="PDGF alpha receptor: PDGF dimers [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389073_compartment_876" name="Phospho PDGF alpha receptor:PDGF dimers [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_1524184_compartment_876" name="PDGF:p-PDGFR dimer:p-PLCgamma [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389078_compartment_876" name="PDGF beta receptor:PDGF chain B homodimer [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389074_compartment_876" name="Phospho PDGF beta receptor: PDGF chain B homodimer [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389066_compartment_20699" name="Cleaved classical PDGF peptides [Golgi membrane]" compartment="compartment_20699" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186822_compartment_20699" name="Classical PDGF precursor dimers (AA, AB, BB) [Golgi membrane]" compartment="compartment_20699" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389077_compartment_876" name="PDGF alpha/beta:PDGF AB and BB dimers [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389076_compartment_876" name="Phospho PDGF alpha-beta dimer:PDGF AB or BB dimers [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186833_compartment_70101" name="RASA1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186830_compartment_876" name="Phospho-beta receptor homodimer:GAP [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_167679_compartment_876" name="p-4Y-PLCG1 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_74016_compartment_70101" name="Ca2+ [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_71519_compartment_70101" name="CALM1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_59282_compartment_70101" name="MAPK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109849_compartment_70101" name="MEK2:ERK-2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109838_compartment_70101" name="MEK1:ERK-1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_59284_compartment_70101" name="MAPK3 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109842_compartment_70101" name="p-T202,Y204-MAPK3 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109843_compartment_70101" name="phospho-ERK-1:MEK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109854_compartment_70101" name="phospho-ERK-2:MEK2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109844_compartment_70101" name="p-T202, Y204 MAPK3 dimer [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109845_compartment_7660" name="p-T202, Y204 MAPK3 dimer [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111875_compartment_17957" name="Ca2+ [endoplasmic reticulum lumen]" compartment="compartment_17957" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109855_compartment_70101" name="p-T185,Y187 MAPK1 dimer [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109853_compartment_70101" name="p-T185,Y187-MAPK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_114520_compartment_70101" name="I(1,4,5)P3 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_169696_compartment_12045" name="ITPR:I(1,4,5)P3 tetramer [endoplasmic reticulum membrane]" compartment="compartment_12045" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_169686_compartment_12045" name="IP3 receptor homotetramer [endoplasmic reticulum membrane]" compartment="compartment_12045" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109856_compartment_7660" name="p-Y185,Y187 MAPK1 dimer [nucleoplasm]" compartment="compartment_7660" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_112275_compartment_876" name="DAGs [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_65043_compartment_876" name="SRC-1 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186831_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:Src [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_50270_compartment_876" name="ADRBK1 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111969_compartment_70101" name="p-S29-ADRBK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109797_compartment_70101" name="GRB2:SOS1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_186827_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:Grb2:Sos1 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_112340_compartment_70101" name="p-MEK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_112336_compartment_70101" name="MEK1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381952_compartment_984" name="PDGF A and B chains:ECM complex [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381934_compartment_984" name="PDGF A and B chains with retention motif [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381946_compartment_984" name="Extracellular matrix ligands [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_204819_compartment_70101" name="GRB7 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381956_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:Grb7 [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_201625_compartment_70101" name="P130CAS [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_3008672_compartment_70101" name="RAPGEF1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381955_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:Crk [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381957_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:Crk:p130Cas:C3G [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109796_compartment_876" name="p21 RAS:GDP [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_29420_compartment_70101" name="GDP [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_29438_compartment_70101" name="GTP [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109783_compartment_876" name="p21 RAS:GTP [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381926_compartment_20699" name="PDGF precursor dimers (AA, BB, A/B, CC, DD) [Golgi membrane]" compartment="compartment_20699" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381936_compartment_17957" name="PDGF precursor dimers  (AA, BB, A/B, CC, DD) [endoplasmic reticulum lumen]" compartment="compartment_17957" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381947_compartment_984" name="Novel PDGF precursor dimers (CC, DD) [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_389070_compartment_984" name="Cleaved novel PDGF fragments [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381939_compartment_984" name="Active PDGF dimers (CC, DD) [extracellular region]" compartment="compartment_984" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381954_compartment_876" name="PDGF:Phospho-PDGFR receptor dimer:Nck [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381949_compartment_70101" name="NCK1,NCK2 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_380768_compartment_876" name="PDGF:Phospho-PDGF receptor dimer:phospho-Src [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381945_compartment_70101" name="CRK, CRKL [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_381942_compartment_20699" name="Novel PDGF precursor dimers (CC, DD) [Golgi membrane]" compartment="compartment_20699" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_380756_compartment_70101" name="STAT family members [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_380766_compartment_876" name="PDGF:phospho-PDGF receptor dimer:STAT [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109786_compartment_70101" name="p-S259,S621-RAF1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_48888_compartment_70101" name="YWHAB [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109787_compartment_70101" name="p-Raf1(S259,S621):14-3-3 protein beta/alpha [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_109788_compartment_876" name="RAS:RAF [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111952_compartment_70101" name="Cam-PDE 1 homodimer [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111953_compartment_70101" name="active Cam-PDE 1 [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_167204_compartment_876" name="HRAS:GTP [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_206716_compartment_876" name="Ras:GTP:p-Raf1(S259,S621) [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_76577_compartment_70101" name="AMP [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_111965_compartment_876" name="GRK2:calmodulin [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198265_compartment_876" name="Phospho-PKC-delta/epsilon [plasma membrane]" compartment="compartment_876" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+      <species id="M_species_198276_compartment_70101" name="PKC-delta/epsilon [cytosol]" compartment="compartment_70101" charge="0">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: </p>
+          </html>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_reaction_2219524" name="PDPK1 binds PIP2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: O15530</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_202210_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179856_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_2219520_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_2316429" name="PIP3 recruits PDPK1 to the membrane" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: O15530</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_179838_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_202210_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_377179_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198270" name="PDPK1 phosphorylates AKT at T308" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND O15530</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_2317313_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_202074_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_377179_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199443" name="THEM4 (CTMP) and/or TRIB3 inhibit AKT phosphorylation" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND ( Q96RU7 OR Q5T1C6 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_2400007_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_2317329_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_199453_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_2321904" name="PTEN mRNA translation negatively regulated by microRNAs" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ENST00000371953 AND P60484</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_2318746_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_199426_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198599" name="AKT phosphorylates MDM2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND Q00987</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_198644_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_198638_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_2317314" name="AKT binds PDPK1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND O15530</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_377179_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_2317310_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_2317313_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_2318752" name="MIR26A microRNAs bind PTEN mRNA" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ENST00000371953 AND ( Q8NDV7 OR Q9HCK5 OR Q9UKV8 OR Q9UPQ9 OR Q9HCJ0 OR MI0000083 OR Q9UL18 OR MI0000750 OR Q9HCE1 OR Q9H9G7 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_2318737_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_2318746_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_2318750_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199298" name="AKT phosphorylates CREB1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND P16220</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_29358_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_52777_compartment_7660" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111910_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_113582_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199299" name="AKT can phosphorylate forkhead box transcription factors" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND ( P98177 OR Q12778 OR O43524 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_199272_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_29358_compartment_7660" stoichiometry="3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_113582_compartment_7660" stoichiometry="3"/>
+          <speciesReference species="M_species_199269_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198298" name="AKT translocates to the nucleus" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_202074_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_202072_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198609" name="AKT phosphorylates TSC2, inhibiting it" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND P49815</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_2980548_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_199484_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198611" name="AKT phosphorylates IKKalpha" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND O15111</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_168104_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_198615_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198371" name="AKT phosphorylates GSK3" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND ( P49841 OR P49840 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_198358_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_198373_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198640" name="TORC2 (mTOR) phosphorylates AKT at S473" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q6R327 AND Q9BVC4 AND P31749 AND P42345 AND Q9BPZ7</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_2317329_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_2317310_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199425" name="PHLPP dephosphorylates S473 in AKT" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND Q6ZVD8 AND O60346</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_202074_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29356_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_202084_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29372_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198613" name="AKT phosphorylates p21Cip1 and p27Kip1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND ( P38936 OR P46527 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_198625_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_198605_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199863" name="AKT can phosphorylate NR4A1 (NUR77)" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND P22736</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_29358_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_199831_compartment_7660" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_113582_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_199846_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199456" name="PTEN dephosphorylates PIP3" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P60484</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_29356_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179838_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29372_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179856_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198347" name="AKT phosphorylates BAD" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND Q92934</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_50662_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_198335_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_2316434" name="PI3K phosphorylates PIP2 to PIP3" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( P12034 OR P31371 OR P10747 OR P06239 OR Q6PIZ9 OR P00533 OR P42081 OR Q13480 OR P05230 OR P06241 OR O60258 OR O76093 OR P04085 OR O14511 OR Q9UEF7 OR P10767 OR P01127 OR Q8WU20 OR P35568 OR Q9Y4H2 OR Q99075 OR P21781 OR Q9HCT0 OR P01133 OR O00329 OR P15498 OR P21860 OR P22455 OR Q9NP95 OR O14944 OR P11362 OR P55075 OR P04626 OR P21802 OR P11487 OR P62993 OR Q02297 OR O00459 OR P27986 OR P16234 OR Q15303 OR O95750 OR Q9GZV9 OR P42336 OR P33681 OR O15520 OR P35070 OR P09619 OR Q8WWG1 OR Q86Z14 OR P08620 OR Q06124 OR P15391 OR P10721 OR P09038 OR P42338 OR P21583 OR P22607 OR O43320 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_179856_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179838_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_200143" name="AKT phosphorylates AKT1S1 (PRAS40)" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND Q96B36</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_200155_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+          <speciesReference species="M_species_200163_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198621" name="AKT phosphorylates caspase-9" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND P55211</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_114257_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_198636_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_199839" name="AKT can phosphorylate RSK" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749 AND Q9UBS0</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_29358_compartment_7660" stoichiometry="2"/>
+          <speciesReference species="M_species_199877_compartment_7660" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_199844_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_113582_compartment_7660" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_2317332" name="PIP3 recruits AKT to the membrane" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31749</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_202088_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179838_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_2317329_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109841" name="RAF1  phosphorylates MEK1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND Q02750 AND P04049 AND P01116 AND P36507 AND P01111 AND P31946</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109794_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109793_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_109837_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_112282" name="CamKIV enters the nucleus" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62158 AND Q16566</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_111900_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_112281_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111915" name="CaMK IV autophosphorylation" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62158 AND Q16566</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_112281_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_29358_compartment_7660" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_113582_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_111904_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186765" name="PLC-gamma binds to the active receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P04085 AND P19174</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_167682_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186795_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111913" name="Calmodulin binds CaMK IV" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62158 AND Q16566</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_74294_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_57900_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111900_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109852" name="RAF1 phosphorylates MEK2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND Q02750 AND P04049 AND P01116 AND P36507 AND P01111 AND P31946</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+          <speciesReference species="M_species_109795_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109793_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_109848_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111919" name="PKA phosphorylates CREB" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P16220 AND ( P22612 OR P17612 OR P22694 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_29358_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_52777_compartment_7660" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111910_compartment_7660" stoichiometry="1"/>
+          <speciesReference species="M_species_113582_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111916" name="Dimerisation of CREB" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P16220</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_111910_compartment_7660" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111911_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186773" name="PDGF dimer binds two receptors simultaneously" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( P09619 OR P16234 ) AND ( P01127 OR P04085 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186792_compartment_876" stoichiometry="2"/>
+          <speciesReference species="M_species_380760_compartment_984" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186766_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109829" name="Stabilisation of RAF by further phosphorylation" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND P01111 AND P31946 AND P04049 AND P01116</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109789_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+          <speciesReference species="M_species_109793_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111925" name="cAMP induces dissociation of inactive PKA tetramers" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31321 AND P13861 AND P31323 AND P10644 AND ( P22612 OR P17612 OR P22694 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_111922_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_30389_compartment_70101" stoichiometry="4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111920_compartment_70101" stoichiometry="2"/>
+          <speciesReference species="M_species_111923_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111924" name="PKA catalytic subunit translocates to the nucleus" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( P22612 OR P17612 OR P22694 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_111920_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111917_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109830" name="Activated RAF1 complex binds MEK" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND P01111 AND P31946 AND P04049 AND P01116 AND ( Q02750 OR P36507 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109793_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_112398_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_112406_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186780" name="PI3-kinase binds to the active receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND O00459 AND P27986 AND P16234 AND P42338 AND P42336 AND P09619 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_74693_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186789_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111930" name="Adenylate cyclase produces cAMP" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: O60503 AND Q08462 AND O95622 AND Q8NFM4 AND O43306 AND Q08828 AND P40145 AND P51828 AND O60266</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_30389_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_111294_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186778" name="SHP2 binds to the active receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND Q06124 AND P09619 AND P16234 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_162563_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186839_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_389083" name="Autophosphorylation of PDGF alpha receptors" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P16234 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="22"/>
+          <speciesReference species="M_species_389079_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="22"/>
+          <speciesReference species="M_species_389073_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_1524186" name="Phosphorylation of PLCgamma by PDGFR" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P19174 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186795_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_1524184_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186786" name="Autophosphorylation of PDGF beta receptors" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="24"/>
+          <speciesReference species="M_species_389078_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="24"/>
+          <speciesReference species="M_species_389074_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186785" name="Processing of classical PDGFs" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P09958 AND ( P01127 OR P04085 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186822_compartment_20699" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_389066_compartment_20699" stoichiometry="1"/>
+          <speciesReference species="M_species_380760_compartment_984" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_389086" name="Autophosphorylation of PDGF alpha/beta receptors" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_389077_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="23"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="23"/>
+          <speciesReference species="M_species_389076_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186798" name="GAP binds to PDGF-beta receptors only" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P20936 AND P09619</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_389074_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_186833_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186830_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_1524182" name="Activated PLC gamma dissociates from the PDGF receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P19174 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_1524184_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_167679_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_74448" name="Calcium binds calmodulin" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62158</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_74016_compartment_70101" stoichiometry="4"/>
+          <speciesReference species="M_species_71519_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_74294_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109858" name="MEK2 binds ERK-2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P36507 AND P28482</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_59282_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_109848_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109849_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109857" name="MEK1 binds ERK-1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q02750 AND P27361</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_59284_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_109837_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109838_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109863" name="Dissociation of phospho-ERK-1:MEK1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q02750 AND P27361</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109843_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109842_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_109837_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109862" name="MEK2 phosphorylates ERK-2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P36507 AND P28482</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109849_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109854_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109860" name="MEK1 phosphorylates ERK-1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q02750 AND P27361</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109838_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109843_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186800" name="PI3K catalyses the phosphorylation of PIP2 to PIP3" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND O00459 AND P27986 AND P16234 AND P42338 AND P42336 AND P09619 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179856_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_179838_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109867" name="Nuclear translocation of phospho-ERK-1 dimer" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P27361</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109844_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109845_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_169683" name="IP3R:I(1,4,5)P3 tetramer transports Ca2+ from ER lumen to cytosol" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q14643 AND Q14573 AND Q14571</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_111875_compartment_17957" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_74016_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109866" name="Dimerisation of phospho-ERK-2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P28482</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109853_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109855_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109865" name="Dimerisation of phospho-ERK-1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P27361</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109842_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109844_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109864" name="Dissociation of phospho-ERK-2:MEK2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P36507 AND P28482</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109854_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109853_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_109848_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_169680" name="IP3 binds to the IP3 receptor, opening the endoplasmic reticulum Ca2+ channel" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q14643 AND Q14573 AND Q14571</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_114520_compartment_70101" stoichiometry="4"/>
+          <speciesReference species="M_species_169686_compartment_12045" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_169696_compartment_12045" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109868" name="Nuclear translocation of phospho-ERK-2 dimer" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P28482</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109855_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109856_compartment_7660" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_167686" name="Active PLCG1 hydrolyses PIP2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P19174</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_179856_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_29356_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_114520_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_112275_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186819" name="SH2 domain of Src binds to the active receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P12931 AND P09619 AND P16234 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_65043_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186831_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111970" name="PKC phosphorylates GRK2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q05655 AND P17252 AND P05129 AND P25098</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_50270_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111969_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186826" name="Grb2/Sos1 complex binds to the active receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62993 AND Q07889 AND P01127 AND P16234 AND P09619 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_109797_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_186827_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_112342" name="Inactivation of MEK1 by p34cdc2" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P06493 AND ( Q02750 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_112336_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_112340_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382054" name="PDGF binds to extracellular matrix proteins" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( P01127 OR P04085 ) AND ( P08572 OR P10451 OR P12111 OR P35442 OR P02458 OR P35443 OR P05997 OR P12109 OR P25940 OR Q01955 OR P02462 OR P49746 OR Q14050 OR Q14055 OR P07996 OR P12110 OR P02461 OR P53420 OR P20908 OR P29400 OR P20849 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_381934_compartment_984" stoichiometry="2"/>
+          <speciesReference species="M_species_381946_compartment_984" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381952_compartment_984" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382055" name="Grb7 binds to the active PDGF receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND Q14451 AND P09619 AND P16234 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_204819_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381956_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382052" name="p130Cas and C3G bind PDGFR bound Crk" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P46108 AND P16234 AND Q13905 AND P46109 AND P09619 AND P56945 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_201625_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_3008672_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_381955_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381957_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_186834" name="Sos-mediated nucleotide exchange of Ras (PDGF receptor:Grb2:Sos)" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62993 AND Q07889 AND P01112 AND P01127 AND P16234 AND P01116 AND P01111 AND P09619 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109796_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_29438_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29420_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_109783_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382053" name="Translocation of PDGF from ER to Golgi" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( P01127 OR Q9NRA1 OR Q9GZP0 OR P04085 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_381936_compartment_17957" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381926_compartment_20699" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382061" name="Extracellular processing of novel PDGFs" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( Q9NRA1 OR Q9GZP0 ) AND ( P00750 OR P00747 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_381947_compartment_984" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_389070_compartment_984" stoichiometry="2"/>
+          <speciesReference species="M_species_381939_compartment_984" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382058" name="Nck binds to the active PDGF receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P04085 AND ( P16333 OR O43639 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_381949_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381954_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_380780" name="Activation of Src" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P12931 AND P09619 AND P16234 AND P04085</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_186831_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_380768_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382056" name="Crk binds to the active PDGF receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P04085 AND ( P46108 OR P46109 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_381945_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381955_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_382057" name="Release of novel PDGFs as latent factors" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( Q9NRA1 OR Q9GZP0 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_381942_compartment_20699" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_381947_compartment_984" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_380782" name="STAT binds to the active receptor" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01127 AND P09619 AND P16234 AND P04085 AND ( P42224 OR P51692 OR P40763 OR P42226 OR P42229 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_186811_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_380756_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_380766_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109804" name="p-RAF binds 14-3-3 beta/alpha" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P31946 AND P04049</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109786_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_48888_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109787_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109802" name="Stabilisation of RAS:RAF by 14-3-3" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND P01111 AND P31946 AND P04049 AND P01116</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109788_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_48888_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_109789_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_109803" name="Transient dissociation of 14-3-3 upon Ras binding" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND P01111 AND P31946 AND P04049 AND P01116</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_109783_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_109787_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_48888_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_109788_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111956" name="Calmodulin activates Cam-PDE 1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( Q14123 OR P54750 OR Q01064 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_111952_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111953_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_209207" name="Phosphorylated human RAF1 binds to RAS:GTP complex" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P01112 AND P04049</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_167204_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_109786_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_206716_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111955" name="cAMP hydrolysis by Cam-PDE 1" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: Q14123 AND P54750 AND Q01064</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_29356_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_30389_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_76577_compartment_70101" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_111966" name="Inhibition of GRK2 by calmodulin" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: P62158 AND P25098</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_50270_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_71519_compartment_70101" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_111965_compartment_876" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_reaction_198314" name="DAG stimulates protein kinase C-delta" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( Q05655 OR Q02156 )</p>
+            <p>SUBSYSTEM: </p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_species_198276_compartment_70101" stoichiometry="1"/>
+          <speciesReference species="M_species_113592_compartment_70101" stoichiometry="3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_species_198265_compartment_876" stoichiometry="1"/>
+          <speciesReference species="M_species_29370_compartment_70101" stoichiometry="3"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfParameters>
+            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="dimensionless"/>
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
