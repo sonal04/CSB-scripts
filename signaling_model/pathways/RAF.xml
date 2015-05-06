@@ -1,0 +1,1360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="pathway_109869" name="RAF/MAP kinase cascade" metaid="metaid_0">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">The MAP kinase cascade describes a sequence of phosphorylation events involving serine/threoninespecific protein kinases. Used by various signal transduction pathways, this cascade constitutes a common 'module' in the transmission of an extracellular signal into the nucleus.</p></notes>
+    <annotation>
+<p xmlns="http://www.w3.org/1999/xhtml">SBML engine: Jsbml</p><sbgn xmlns="http://sbgn.org/libsbgn/0.2"><map language="process description"><glyph class="compartment" compartmentOrder="10.0" id="compartmentVertex_7660_555067"><label text="nucleoplasm"><bbox h="24.0" w="88.0" x="15537.12" y="2235.0"/></label><bbox h="228.0" w="714.0" x="15480.0" y="2163.0"/></glyph><glyph class="compartment" compartmentOrder="10.0" id="compartmentVertex_7660_528078"><label text="nucleoplasm"><bbox h="24.0" w="88.0" x="2979.36" y="1365.0"/></label><bbox h="348.0" w="867.0" x="2910.0" y="1293.0"/></glyph><glyph class="compartment" compartmentOrder="10.0" id="compartmentVertex_20592_555067"><label text="clathrin-coated endocytic vesicle"><bbox h="24.0" w="264.0" x="16529.88" y="1614.0"/></label><bbox h="384.0" w="861.0" x="16461.0" y="1542.0"/></glyph><glyph class="compartment" compartmentOrder="10.0" id="compartmentVertex_17940_555067"><label text="endosome"><bbox h="24.0" w="64.0" x="14992.92" y="1626.0"/></label><bbox h="480.0" w="1374.0" x="14883.0" y="1554.0"/></glyph><glyph class="compartment" compartmentOrder="10.0" id="compartmentVertex_7660_1486153"><label text="nucleoplasm"><bbox h="24.0" w="88.0" x="6432.12" y="1647.0"/></label><bbox h="1098.0" w="3114.0" x="6183.0" y="1575.0"/></glyph><glyph class="compartment" compartmentOrder="2.0" id="compartmentVertex_70101_528078"><label text="cytosol"><bbox h="24.0" w="56.0" x="508.08" y="141.0"/></label><bbox h="2139.0" w="3651.0" x="216.0" y="69.0"/></glyph><glyph class="compartment" compartmentOrder="2.0" id="compartmentVertex_70101_1486153"><label text="cytosol"><bbox h="24.0" w="56.0" x="4473.36" y="97.32"/></label><bbox h="2844.0" w="5592.0" x="4026.0" y="12.0"/></glyph><glyph class="compartment" compartmentOrder="2.0" id="compartmentVertex_70101_555067"><label text="cytosol"><bbox h="24.0" w="56.0" x="11009.76" y="894.96"/></label><bbox h="2532.0" w="11997.0" x="10050.0" y="819.0"/></glyph><glyph class="unspecified entity" id="entityVertex_7216910"><label text="MEK"/><bbox h="36.0" w="90.0" x="348.0" y="1023.0"/></glyph><glyph class="complex" id="entityVertex_7216911"><label text="Activated_RAF1"/><bbox h="36.0" w="148.5" x="54.0" y="486.0"/><glyph class="annotation" id="entityVertex_7216911_annotation"><label text="14-3-3:p-S259,Y340,Y341,S621-RAF1:RAS:GTP, MEK"/><callout target="entityVertex_7216911"><point x="202.5" y="522.0"/></callout><bbox h="24.0" w="368.0" x="218.5" y="546.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216912"><label text="_14 S259_Y340_Y341"/><bbox h="45.0" w="174.0" x="30.0" y="1128.0"/><glyph class="annotation" id="entityVertex_7216912_annotation"><label text="p21 RAS:GTP, p-S259,Y340,Y341,S621-RAF1, YWHAB"/><callout target="entityVertex_7216912"><point x="204.0" y="1173.0"/></callout><bbox h="24.0" w="368.0" x="220.0" y="1197.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216913"><label text="S218_S222_MAP2K1"/><bbox h="36.0" w="151.5" x="1509.0" y="879.0"/><glyph class="unit of information" id="entityVertex_7216913_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="1525.0" y="867.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216914"><label text="_14 S259_Y340_Y341"/><bbox h="45.0" w="174.0" x="1143.0" y="426.0"/><glyph class="annotation" id="entityVertex_7216914_annotation"><label text="p21 RAS:GTP, p-S259,Y340,Y341,S621-RAF1, YWHAB"/><callout target="entityVertex_7216914"><point x="1317.0" y="471.0"/></callout><bbox h="24.0" w="368.0" x="1333.0" y="495.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216915"><label text="MAP2K2"/><bbox h="36.0" w="154.5" x="1419.0" y="168.0"/><glyph class="unit of information" id="entityVertex_7216915_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="1435.0" y="156.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216916"><label text="MAPK3"/><bbox h="36.0" w="117.0" x="1551.0" y="549.0"/><glyph class="unit of information" id="entityVertex_7216916_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="1567.0" y="537.0"/></glyph></glyph><glyph class="complex multimer" id="entityVertex_7216917"><label text="T202_Y204_MAPK3"/><bbox h="36.0" w="160.5" x="3039.0" y="1395.0"/><glyph class="annotation" id="entityVertex_7216917_annotation"><label text="p-T202,Y204-MAPK3"/><callout target="entityVertex_7216917"><point x="3199.5" y="1431.0"/></callout><bbox h="24.0" w="136.0" x="3215.5" y="1455.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216918"><label text="phospho_ERK MEK1"/><bbox h="36.0" w="160.5" x="2595.0" y="615.0"/><glyph class="annotation" id="entityVertex_7216918_annotation"><label text="p-S218,S222-MAP2K1, p-T202,Y204-MAPK3"/><callout target="entityVertex_7216918"><point x="2755.5" y="651.0"/></callout><bbox h="24.0" w="296.0" x="2771.5" y="675.0"/></glyph></glyph><glyph class="complex multimer" id="entityVertex_7216919"><label text="T202_Y204_MAPK3"/><bbox h="36.0" w="160.5" x="3036.0" y="1038.0"/><glyph class="annotation" id="entityVertex_7216919_annotation"><label text="p-T202,Y204-MAPK3"/><callout target="entityVertex_7216919"><point x="3196.5" y="1074.0"/></callout><bbox h="24.0" w="136.0" x="3212.5" y="1098.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216920"><label text="MEK1_ERK"/><bbox h="36.0" w="124.5" x="1956.0" y="630.0"/><glyph class="annotation" id="entityVertex_7216920_annotation"><label text="p-S218,S222-MAP2K1, MAPK3"/><callout target="entityVertex_7216920"><point x="2080.5" y="666.0"/></callout><bbox h="24.0" w="200.0" x="2096.5" y="690.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216921"><label text="T202_Y204_MAPK3"/><bbox h="36.0" w="159.0" x="3006.0" y="651.0"/><glyph class="unit of information" id="entityVertex_7216921_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="3022.0" y="639.0"/></glyph></glyph><glyph class="complex multimer" id="entityVertex_7216922"><label text="T185_Y187_MAPK1"/><bbox h="36.0" w="160.5" x="3384.0" y="1038.0"/><glyph class="annotation" id="entityVertex_7216922_annotation"><label text="p-T185,Y187-MAPK1"/><callout target="entityVertex_7216922"><point x="3544.5" y="1074.0"/></callout><bbox h="24.0" w="136.0" x="3560.5" y="1098.0"/></glyph></glyph><glyph class="complex multimer" id="entityVertex_7216923"><label text="Y185_Y187_MAPK1"/><bbox h="36.0" w="160.5" x="3393.0" y="1395.0"/><glyph class="annotation" id="entityVertex_7216923_annotation"><label text="p-T185,Y187-MAPK1"/><callout target="entityVertex_7216923"><point x="3553.5" y="1431.0"/></callout><bbox h="24.0" w="136.0" x="3569.5" y="1455.0"/></glyph></glyph><glyph class="simple chemical" id="entityVertex_7216924"><label text="ADP"/><bbox h="36.0" w="90.0" x="2532.0" y="450.0"/></glyph><glyph class="macromolecule" id="entityVertex_7216925"><label text="MAPK1"/><bbox h="36.0" w="109.5" x="1545.0" y="342.0"/><glyph class="unit of information" id="entityVertex_7216925_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="1561.0" y="330.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216926"><label text="MEK2_ERK"/><bbox h="36.0" w="124.5" x="1938.0" y="261.0"/><glyph class="annotation" id="entityVertex_7216926_annotation"><label text="p-S,T-MAP2K2, MAPK1"/><callout target="entityVertex_7216926"><point x="2062.5" y="297.0"/></callout><bbox h="24.0" w="152.0" x="2078.5" y="321.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216927"><label text="T185_Y187_MAPK1"/><bbox h="36.0" w="153.0" x="3360.0" y="651.0"/><glyph class="unit of information" id="entityVertex_7216927_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="3376.0" y="639.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216928"><label text="phospho_ERK MEK2"/><bbox h="36.0" w="160.5" x="2595.0" y="228.0"/><glyph class="annotation" id="entityVertex_7216928_annotation"><label text="p-S,T-MAP2K2, p-T185,Y187-MAPK1"/><callout target="entityVertex_7216928"><point x="2755.5" y="264.0"/></callout><bbox h="24.0" w="248.0" x="2771.5" y="288.0"/></glyph></glyph><glyph class="simple chemical" id="entityVertex_7216929"><label text="ATP"/><bbox h="36.0" w="90.0" x="2034.0" y="408.0"/></glyph><glyph class="simple chemical" id="entityVertex_7216930"><label text="ADP"/><bbox h="36.0" w="90.0" x="993.0" y="474.0"/></glyph><glyph class="complex" id="entityVertex_7216931"><label text="Activated_RAF1"/><bbox h="36.0" w="148.5" x="453.0" y="720.0"/><glyph class="annotation" id="entityVertex_7216931_annotation"><label text="14-3-3:p-S259,Y340,Y341,S621-RAF1:RAS:GTP, MAP2K1"/><callout target="entityVertex_7216931"><point x="601.5" y="756.0"/></callout><bbox h="24.0" w="392.0" x="617.5" y="780.0"/></glyph></glyph><glyph class="simple chemical" id="entityVertex_7216932"><label text="ATP"/><bbox h="36.0" w="90.0" x="609.0" y="504.0"/></glyph><glyph class="complex" id="entityVertex_7216933"><label text="Activated_RAF1"/><bbox h="36.0" w="148.5" x="426.0" y="321.0"/><glyph class="annotation" id="entityVertex_7216933_annotation"><label text="14-3-3:p-S259,Y340,Y341,S621-RAF1:RAS:GTP, MAP2K2"/><callout target="entityVertex_7216933"><point x="574.5" y="357.0"/></callout><bbox h="24.0" w="392.0" x="590.5" y="381.0"/></glyph></glyph><glyph class="unspecified entity" id="entityVertex_7216934"><label text="MEK1"/><bbox h="36.0" w="90.0" x="1197.0" y="1380.0"/></glyph><glyph class="simple chemical" id="entityVertex_7216935"><label text="ATP"/><bbox h="36.0" w="90.0" x="993.0" y="1368.0"/></glyph><glyph class="simple chemical" id="entityVertex_7216936"><label text="ADP"/><bbox h="36.0" w="90.0" x="948.0" y="1035.0"/></glyph><glyph class="unspecified entity" id="entityVertex_7216937"><label text="MEK1"/><bbox h="36.0" w="145.5" x="1155.0" y="1032.0"/></glyph><glyph class="macromolecule" id="entityVertex_7216938"><label text="T161_CDK1"/><bbox h="36.0" w="148.5" x="759.0" y="1179.0"/><glyph class="unit of information" id="entityVertex_7216938_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="775.0" y="1167.0"/></glyph></glyph><glyph class="simple chemical" id="entityVertex_7216939"><label text="ATP"/><bbox h="36.0" w="90.0" x="2151.0" y="777.0"/></glyph><glyph class="simple chemical" id="entityVertex_7216940"><label text="ADP"/><bbox h="36.0" w="90.0" x="2418.0" y="771.0"/></glyph><glyph class="complex" id="entityVertex_7216941"><label text="p21_RAS_GTP"/><bbox h="36.0" w="159.0" x="1191.0" y="2154.0"/><glyph class="annotation" id="entityVertex_7216941_annotation"><label text="p21 RAS, GTP"/><callout target="entityVertex_7216941"><point x="1350.0" y="2190.0"/></callout><bbox h="24.0" w="96.0" x="1366.0" y="2214.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216942"><label text="YWHAB"/><bbox h="36.0" w="154.5" x="390.0" y="1974.0"/><glyph class="unit of information" id="entityVertex_7216942_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="406.0" y="1962.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216943"><label text="Raf1_S259_S621"/><bbox h="48.6" w="195.0" x="1182.0" y="1923.0"/><glyph class="annotation" id="entityVertex_7216943_annotation"><label text="YWHAB, p-S259,S621-RAF1"/><callout target="entityVertex_7216943"><point x="1377.0" y="1971.6"/></callout><bbox h="24.0" w="184.0" x="1393.0" y="1995.6"/></glyph></glyph><glyph class="unspecified entity" id="entityVertex_7216944"><label text="unidentified_protein"/><bbox h="36.0" w="187.5" x="6.0" y="1449.0"/></glyph><glyph class="complex" id="entityVertex_7216945"><label text="RAS_RAF"/><bbox h="36.0" w="90.0" x="144.0" y="2025.0"/><glyph class="annotation" id="entityVertex_7216945_annotation"><label text="p21 RAS:GTP, p-S259,S621-RAF1"/><callout target="entityVertex_7216945"><point x="234.0" y="2061.0"/></callout><bbox h="24.0" w="232.0" x="250.0" y="2085.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216946"><label text="_14 S259_S621_RAF1"/><bbox h="36.0" w="195.0" x="36.0" y="1710.0"/><glyph class="annotation" id="entityVertex_7216946_annotation"><label text="RAS:RAF, YWHAB"/><callout target="entityVertex_7216946"><point x="231.0" y="1746.0"/></callout><bbox h="24.0" w="112.0" x="247.0" y="1770.0"/></glyph></glyph><glyph class="macromolecule" id="entityVertex_7216947"><label text="S259_S621_RAF1"/><bbox h="36.0" w="196.5" x="1038.0" y="1620.0"/><glyph class="unit of information" id="entityVertex_7216947_mt"><label text="mt:prot"/><bbox h="24.0" w="56.0" x="1054.0" y="1608.0"/></glyph></glyph><glyph class="simple chemical" id="entityVertex_7216948"><label text="ATP"/><bbox h="36.0" w="90.0" x="564.0" y="1662.0"/></glyph><glyph class="simple chemical" id="entityVertex_7216949"><label text="ADP"/><bbox h="36.0" w="90.0" x="588.0" y="1305.0"/></glyph><glyph class="complex" id="entityVertex_7216950"><label text="HRAS_GTP"/><bbox h="36.0" w="112.5" x="1203.0" y="2328.0"/><glyph class="annotation" id="entityVertex_7216950_annotation"><label text="HRAS, GTP"/><callout target="entityVertex_7216950"><point x="1315.5" y="2364.0"/></callout><bbox h="24.0" w="72.0" x="1331.5" y="2388.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216951"><label text="Ras_GTP Raf1_S259"/><bbox h="36.0" w="180.0" x="165.0" y="2232.0"/><glyph class="annotation" id="entityVertex_7216951_annotation"><label text="HRAS:GTP, p-S259,S621-RAF1"/><callout target="entityVertex_7216951"><point x="345.0" y="2268.0"/></callout><bbox h="24.0" w="208.0" x="361.0" y="2292.0"/></glyph></glyph><glyph class="complex" id="entityVertex_7216952"><label text="IL6_Tyrosine"/><bbox h="70.2" w="178.5" x="2517.0" y="1011.0"/><glyph class="annotation" id="entityVertex_7216952_annotation"><label text="Tyrosine phosphorylated IL6 receptor hexamer:Activated JAKs, p-Y546,Y584-PTPN11"/><callout target="entityVertex_7216952"><point x="2695.5" y="1081.2"/></callout><bbox h="24.0" w="632.0" x="2711.5" y="1105.2"/></glyph></glyph><glyph class="process" id="reactionVertex_6904783"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_6904790"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7216953"><bbox h="36.0" w="36.0" x="201.0" y="846.0"/><port id="reactionVertex_7216953.1" x="219.0" y="846.0"/></glyph><glyph class="process" id="reactionVertex_7216957"><bbox h="36.0" w="36.0" x="888.0" y="672.0"/><port id="reactionVertex_7216957.1" x="924.0" y="690.0"/><port id="reactionVertex_7216957.2" x="906.0" y="672.0"/><port id="reactionVertex_7216957.3" x="906.0" y="672.0"/></glyph><glyph class="process" id="reactionVertex_7216964"><bbox h="36.0" w="36.0" x="900.0" y="369.0"/><port id="reactionVertex_7216964.1" x="936.0" y="387.0"/><port id="reactionVertex_7216964.2" x="918.0" y="405.0"/><port id="reactionVertex_7216964.3" x="936.0" y="387.0"/></glyph><glyph class="process" id="reactionVertex_7216971"><bbox h="36.0" w="36.0" x="3201.0" y="1218.0"/><port id="reactionVertex_7216971.1" x="3219.0" y="1254.0"/></glyph><glyph class="process" id="reactionVertex_7216974"><bbox h="36.0" w="36.0" x="2328.0" y="654.0"/><port id="reactionVertex_7216974.1" x="2364.0" y="672.0"/><port id="reactionVertex_7216974.2" x="2346.0" y="690.0"/></glyph><glyph class="process" id="reactionVertex_7216981"><bbox h="36.0" w="36.0" x="3189.0" y="936.0"/><port id="reactionVertex_7216981.1" x="3207.0" y="972.0"/></glyph><glyph class="process" id="reactionVertex_7216984"><bbox h="36.0" w="36.0" x="2754.0" y="813.0"/><port id="reactionVertex_7216984.1" x="2754.0" y="831.0"/><port id="reactionVertex_7216984.2" x="2790.0" y="831.0"/></glyph><glyph class="process" id="reactionVertex_7216988"><bbox h="36.0" w="36.0" x="3549.0" y="1236.0"/><port id="reactionVertex_7216988.1" x="3567.0" y="1272.0"/></glyph><glyph class="process" id="reactionVertex_7216991"><bbox h="36.0" w="36.0" x="2982.0" y="285.0"/><port id="reactionVertex_7216991.1" x="3000.0" y="321.0"/><port id="reactionVertex_7216991.2" x="2982.0" y="303.0"/></glyph><glyph class="process" id="reactionVertex_7216995"><bbox h="36.0" w="36.0" x="2334.0" y="330.0"/><port id="reactionVertex_7216995.1" x="2370.0" y="348.0"/><port id="reactionVertex_7216995.2" x="2370.0" y="348.0"/></glyph><glyph class="process" id="reactionVertex_7217001"><bbox h="36.0" w="36.0" x="3525.0" y="933.0"/><port id="reactionVertex_7217001.1" x="3543.0" y="969.0"/></glyph><glyph class="process" id="reactionVertex_7217004"><bbox h="36.0" w="36.0" x="1164.0" y="1263.0"/><port id="reactionVertex_7217004.1" x="1182.0" y="1263.0"/><port id="reactionVertex_7217004.2" x="1182.0" y="1263.0"/></glyph><glyph class="process" id="reactionVertex_7217010"><bbox h="36.0" w="36.0" x="1068.0" y="2007.0"/><port id="reactionVertex_7217010.1" x="1104.0" y="2025.0"/></glyph><glyph class="process" id="reactionVertex_7217014"><bbox h="36.0" w="36.0" x="741.0" y="2190.0"/><port id="reactionVertex_7217014.1" x="741.0" y="2208.0"/><port id="reactionVertex_7217014.2" x="759.0" y="2190.0"/></glyph><glyph class="process" id="reactionVertex_7217019"><bbox h="36.0" w="36.0" x="228.0" y="1932.0"/><port id="reactionVertex_7217019.1" x="246.0" y="1932.0"/></glyph><glyph class="process" id="reactionVertex_7217023"><bbox h="36.0" w="36.0" x="477.0" y="1512.0"/><port id="reactionVertex_7217023.1" x="495.0" y="1512.0"/><port id="reactionVertex_7217023.2" x="495.0" y="1512.0"/></glyph><glyph class="process" id="reactionVertex_7217029"><bbox h="36.0" w="36.0" x="741.0" y="2277.0"/><port id="reactionVertex_7217029.1" x="741.0" y="2295.0"/></glyph><glyph class="process" id="reactionVertex_7217033"><bbox h="36.0" w="36.0" x="1848.0" y="681.0"/><port id="reactionVertex_7217033.1" x="1884.0" y="699.0"/></glyph><glyph class="process" id="reactionVertex_7217038"><bbox h="36.0" w="36.0" x="1857.0" y="294.0"/><port id="reactionVertex_7217038.1" x="1893.0" y="312.0"/></glyph><glyph class="process" id="reactionVertex_7466966"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466970"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466977"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466981"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466984"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466987"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466991"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7466997"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7467001"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7467004"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><glyph class="process" id="reactionVertex_7467007"><bbox h="0.0" w="0.0" x="0.0" y="0.0"/></glyph><arc class="consumption" id="edge_7216954" source="entityVertex_7216910" target="reactionVertex_7216953"><start x="348.0" y="1041.0"/><end x="219.0" y="882.0"/></arc><arc class="consumption" id="edge_7216955" source="entityVertex_7216912" target="reactionVertex_7216953"><start x="117.0" y="1128.0"/><end x="219.0" y="882.0"/></arc><arc class="production" id="edge_7216956" source="reactionVertex_7216953.1" target="entityVertex_7216911"><start x="219.0" y="846.0"/><end x="128.25" y="522.0"/></arc><arc class="consumption" id="edge_7216958" source="entityVertex_7216931" target="reactionVertex_7216957"><start x="601.5" y="738.0"/><end x="888.0" y="690.0"/></arc><arc class="consumption" id="edge_7216959" source="entityVertex_7216932" target="reactionVertex_7216957"><start x="699.0" y="522.0"/><end x="888.0" y="690.0"/></arc><arc class="production" id="edge_7216960" source="reactionVertex_7216957.1" target="entityVertex_7216913"><start x="924.0" y="690.0"/><end x="1509.0" y="897.0"/></arc><arc class="production" id="edge_7216961" source="reactionVertex_7216957.2" target="entityVertex_7216914"><start x="906.0" y="672.0"/><end x="1143.0" y="448.5"/></arc><arc class="production" id="edge_7216962" source="reactionVertex_7216957.3" target="entityVertex_7216930"><start x="906.0" y="672.0"/><end x="993.0" y="492.0"/></arc><arc class="catalysis" id="edge_7216963" source="entityVertex_7216911" target="reactionVertex_7216957"><start x="202.5" y="504.0"/><end x="888.0" y="690.0"/></arc><arc class="consumption" id="edge_7216965" source="entityVertex_7216932" target="reactionVertex_7216964"><start x="699.0" y="522.0"/><end x="900.0" y="387.0"/></arc><arc class="consumption" id="edge_7216966" source="entityVertex_7216933" target="reactionVertex_7216964"><start x="574.5" y="339.0"/><end x="900.0" y="387.0"/></arc><arc class="production" id="edge_7216967" source="reactionVertex_7216964.1" target="entityVertex_7216915"><start x="936.0" y="387.0"/><end x="1419.0" y="186.0"/></arc><arc class="production" id="edge_7216968" source="reactionVertex_7216964.2" target="entityVertex_7216930"><start x="918.0" y="405.0"/><end x="993.0" y="492.0"/></arc><arc class="production" id="edge_7216969" source="reactionVertex_7216964.3" target="entityVertex_7216914"><start x="936.0" y="387.0"/><end x="1143.0" y="448.5"/></arc><arc class="catalysis" id="edge_7216970" source="entityVertex_7216911" target="reactionVertex_7216964"><start x="202.5" y="504.0"/><end x="900.0" y="387.0"/></arc><arc class="consumption" id="edge_7216972" source="entityVertex_7216919" target="reactionVertex_7216971"><start x="3196.5" y="1056.0"/><end x="3219.0" y="1218.0"/></arc><arc class="production" id="edge_7216973" source="reactionVertex_7216971.1" target="entityVertex_7216917"><start x="3219.0" y="1254.0"/><end x="3199.5" y="1413.0"/></arc><arc class="consumption" id="edge_7216975" source="entityVertex_7216920" target="reactionVertex_7216974"><start x="2080.5" y="648.0"/><end x="2328.0" y="672.0"/></arc><arc class="consumption" id="edge_7216976" source="entityVertex_7216939" target="reactionVertex_7216974"><start x="2241.0" y="795.0"/><end x="2346.0" y="690.0"/></arc><arc class="production" id="edge_7216977" source="reactionVertex_7216974.1" target="entityVertex_7216918"><start x="2364.0" y="672.0"/><end x="2595.0" y="633.0"/></arc><arc class="production" id="edge_7216978" source="reactionVertex_7216974.2" target="entityVertex_7216940"><start x="2346.0" y="690.0"/><end x="2418.0" y="789.0"/></arc><arc class="catalysis" id="edge_7216979" source="entityVertex_7216920" target="reactionVertex_7216974"><start x="2080.5" y="648.0"/><end x="2328.0" y="672.0"/></arc><arc class="inhibition" id="edge_7216980" source="entityVertex_7216937" target="reactionVertex_7216974"><start x="1300.5" y="1050.0"/><end x="2328.0" y="672.0"/></arc><arc class="consumption" id="edge_7216982" source="entityVertex_7216921" target="reactionVertex_7216981"><start x="3165.0" y="669.0"/><end x="3207.0" y="936.0"/></arc><arc class="production" id="edge_7216983" source="reactionVertex_7216981.1" target="entityVertex_7216919"><start x="3207.0" y="972.0"/><end x="3196.5" y="1056.0"/></arc><arc class="consumption" id="edge_7216985" source="entityVertex_7216918" target="reactionVertex_7216984"><start x="2755.5" y="633.0"/><end x="2772.0" y="813.0"/></arc><arc class="production" id="edge_7216986" source="reactionVertex_7216984.1" target="entityVertex_7216913"><start x="2754.0" y="831.0"/><end x="1660.5" y="897.0"/></arc><arc class="production" id="edge_7216987" source="reactionVertex_7216984.2" target="entityVertex_7216921"><start x="2790.0" y="831.0"/><end x="3006.0" y="669.0"/></arc><arc class="consumption" id="edge_7216989" source="entityVertex_7216922" target="reactionVertex_7216988"><start x="3544.5" y="1056.0"/><end x="3567.0" y="1236.0"/></arc><arc class="production" id="edge_7216990" source="reactionVertex_7216988.1" target="entityVertex_7216923"><start x="3567.0" y="1272.0"/><end x="3553.5" y="1413.0"/></arc><arc class="consumption" id="edge_7216992" source="entityVertex_7216928" target="reactionVertex_7216991"><start x="2755.5" y="246.0"/><end x="2982.0" y="303.0"/></arc><arc class="production" id="edge_7216993" source="reactionVertex_7216991.1" target="entityVertex_7216927"><start x="3000.0" y="321.0"/><end x="3360.0" y="669.0"/></arc><arc class="production" id="edge_7216994" source="reactionVertex_7216991.2" target="entityVertex_7216915"><start x="2982.0" y="303.0"/><end x="1573.5" y="186.0"/></arc><arc class="consumption" id="edge_7216996" source="entityVertex_7216926" target="reactionVertex_7216995"><start x="2062.5" y="279.0"/><end x="2334.0" y="348.0"/></arc><arc class="consumption" id="edge_7216997" source="entityVertex_7216929" target="reactionVertex_7216995"><start x="2124.0" y="426.0"/><end x="2334.0" y="348.0"/></arc><arc class="production" id="edge_7216998" source="reactionVertex_7216995.1" target="entityVertex_7216924"><start x="2370.0" y="348.0"/><end x="2532.0" y="468.0"/></arc><arc class="production" id="edge_7216999" source="reactionVertex_7216995.2" target="entityVertex_7216928"><start x="2370.0" y="348.0"/><end x="2595.0" y="246.0"/></arc><arc class="catalysis" id="edge_7217000" source="entityVertex_7216926" target="reactionVertex_7216995"><start x="2062.5" y="279.0"/><end x="2334.0" y="348.0"/></arc><arc class="consumption" id="edge_7217002" source="entityVertex_7216927" target="reactionVertex_7217001"><start x="3513.0" y="669.0"/><end x="3543.0" y="933.0"/></arc><arc class="production" id="edge_7217003" source="reactionVertex_7217001.1" target="entityVertex_7216922"><start x="3543.0" y="969.0"/><end x="3544.5" y="1056.0"/></arc><arc class="consumption" id="edge_7217005" source="entityVertex_7216934" target="reactionVertex_7217004"><start x="1197.0" y="1398.0"/><end x="1182.0" y="1299.0"/></arc><arc class="consumption" id="edge_7217006" source="entityVertex_7216935" target="reactionVertex_7217004"><start x="1083.0" y="1386.0"/><end x="1182.0" y="1299.0"/></arc><arc class="production" id="edge_7217007" source="reactionVertex_7217004.1" target="entityVertex_7216936"><start x="1182.0" y="1263.0"/><end x="1038.0" y="1053.0"/></arc><arc class="production" id="edge_7217008" source="reactionVertex_7217004.2" target="entityVertex_7216937"><start x="1182.0" y="1263.0"/><end x="1227.75" y="1068.0"/></arc><arc class="catalysis" id="edge_7217009" source="entityVertex_7216938" target="reactionVertex_7217004"><start x="907.5" y="1197.0"/><end x="1164.0" y="1281.0"/></arc><arc class="consumption" id="edge_7217011" source="entityVertex_7216942" target="reactionVertex_7217010"><start x="544.5" y="1992.0"/><end x="1068.0" y="2025.0"/></arc><arc class="consumption" id="edge_7217012" source="entityVertex_7216947" target="reactionVertex_7217010"><start x="1136.25" y="1656.0"/><end x="1086.0" y="2007.0"/></arc><arc class="production" id="edge_7217013" source="reactionVertex_7217010.1" target="entityVertex_7216943"><start x="1104.0" y="2025.0"/><end x="1182.0" y="1947.3"/></arc><arc class="consumption" id="edge_7217015" source="entityVertex_7216943" target="reactionVertex_7217014"><start x="1182.0" y="1947.3"/><end x="777.0" y="2208.0"/></arc><arc class="consumption" id="edge_7217016" source="entityVertex_7216941" target="reactionVertex_7217014"><start x="1191.0" y="2172.0"/><end x="777.0" y="2208.0"/></arc><arc class="production" id="edge_7217017" source="reactionVertex_7217014.1" target="entityVertex_7216945"><start x="741.0" y="2208.0"/><end x="234.0" y="2043.0"/></arc><arc class="production" id="edge_7217018" source="reactionVertex_7217014.2" target="entityVertex_7216942"><start x="759.0" y="2190.0"/><end x="544.5" y="1992.0"/></arc><arc class="consumption" id="edge_7217020" source="entityVertex_7216945" target="reactionVertex_7217019"><start x="234.0" y="2043.0"/><end x="246.0" y="1968.0"/></arc><arc class="consumption" id="edge_7217021" source="entityVertex_7216942" target="reactionVertex_7217019"><start x="390.0" y="1992.0"/><end x="264.0" y="1950.0"/></arc><arc class="production" id="edge_7217022" source="reactionVertex_7217019.1" target="entityVertex_7216946"><start x="246.0" y="1932.0"/><end x="231.0" y="1728.0"/></arc><arc class="consumption" id="edge_7217024" source="entityVertex_7216948" target="reactionVertex_7217023"><start x="564.0" y="1680.0"/><end x="495.0" y="1548.0"/></arc><arc class="consumption" id="edge_7217025" source="entityVertex_7216946" target="reactionVertex_7217023"><start x="231.0" y="1728.0"/><end x="477.0" y="1530.0"/></arc><arc class="production" id="edge_7217026" source="reactionVertex_7217023.1" target="entityVertex_7216912"><start x="495.0" y="1512.0"/><end x="204.0" y="1150.5"/></arc><arc class="production" id="edge_7217027" source="reactionVertex_7217023.2" target="entityVertex_7216949"><start x="495.0" y="1512.0"/><end x="588.0" y="1323.0"/></arc><arc class="catalysis" id="edge_7217028" source="entityVertex_7216944" target="reactionVertex_7217023"><start x="193.5" y="1467.0"/><end x="477.0" y="1530.0"/></arc><arc class="consumption" id="edge_7217030" source="entityVertex_7216947" target="reactionVertex_7217029"><start x="1038.0" y="1638.0"/><end x="759.0" y="2277.0"/></arc><arc class="consumption" id="edge_7217031" source="entityVertex_7216950" target="reactionVertex_7217029"><start x="1203.0" y="2346.0"/><end x="777.0" y="2295.0"/></arc><arc class="production" id="edge_7217032" source="reactionVertex_7217029.1" target="entityVertex_7216951"><start x="741.0" y="2295.0"/><end x="345.0" y="2250.0"/></arc><arc class="consumption" id="edge_7217034" source="entityVertex_7216916" target="reactionVertex_7217033"><start x="1668.0" y="567.0"/><end x="1848.0" y="699.0"/></arc><arc class="consumption" id="edge_7217035" source="entityVertex_7216913" target="reactionVertex_7217033"><start x="1660.5" y="897.0"/><end x="1848.0" y="699.0"/></arc><arc class="production" id="edge_7217036" source="reactionVertex_7217033.1" target="entityVertex_7216920"><start x="1884.0" y="699.0"/><end x="1956.0" y="648.0"/></arc><arc class="stimulation" id="edge_7217037" source="entityVertex_7216952" target="reactionVertex_7217033"><start x="2517.0" y="1046.1"/><end x="1884.0" y="699.0"/></arc><arc class="consumption" id="edge_7217039" source="entityVertex_7216925" target="reactionVertex_7217038"><start x="1654.5" y="360.0"/><end x="1857.0" y="312.0"/></arc><arc class="consumption" id="edge_7217040" source="entityVertex_7216915" target="reactionVertex_7217038"><start x="1573.5" y="186.0"/><end x="1857.0" y="312.0"/></arc><arc class="production" id="edge_7217041" source="reactionVertex_7217038.1" target="entityVertex_7216926"><start x="1893.0" y="312.0"/><end x="1938.0" y="279.0"/></arc><arc class="stimulation" id="edge_7217042" source="entityVertex_7216952" target="reactionVertex_7217038"><start x="2517.0" y="1046.1"/><end x="1875.0" y="330.0"/></arc></map></sbgn>          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#metaid_0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Charalambous</vCard:Family>
+                  <vCard:Given>Marika</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>ms524@cam.ac.uk</vCard:EMAIL>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>University of Cambridge, Center for Trophoblast Research</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2004-05-29T13:21:24Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2004-02-23T10:11:12Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2004-05-29T13:21:20Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2005-04-14T20:17:54Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2005-04-29T14:30:32Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2005-06-03T13:53:07Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2006-10-21T16:53:37Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2006-11-10T15:21:48Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2006-11-19T13:21:14Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2007-04-13T16:34:40Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2007-05-25T18:54:44Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2007-12-08T20:49:12Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2007-12-28T15:42:46Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2008-03-07T19:01:08Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2010-04-05T16:40:55Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2011-06-10T16:39:18Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2011-09-17T18:10:40Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2011-09-30T01:44:19Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2011-11-26T19:17:36Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2011-12-19T02:09:55Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2012-09-29T11:37:57Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2012-12-22T03:12:03Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2013-01-21T19:53:32Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-01-18T22:20:09Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-03-06T21:00:20Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T19:04:11Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T19:14:03Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T19:19:14Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T19:25:11Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T19:53:32Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T21:16:11Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-05T22:55:25Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T01:12:39Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T04:07:54Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T06:57:18Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T09:19:08Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T11:18:40Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T14:40:16Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-06T22:40:03Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-07T01:47:50Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-07T03:15:47Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-04-27T12:45:08Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:is>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:reactome:REACT_634"/>
+            </rdf:Bag>
+          </bqbiol:is>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="urn:miriam:pubmed:15520807"/>
+              <rdf:li rdf:resource="urn:miriam:pubmed:17496910"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+      <listOfCompartments>
+      <compartment id="compartment_70101" name="cytosol" metaid="metaid_2" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_2">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005829"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+</compartment>
+      <compartment id="compartment_876" name="plasma membrane" metaid="metaid_10" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_10">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005886"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+</compartment>
+      <compartment id="compartment_7660" name="nucleoplasm" metaid="metaid_105" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_105">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005654"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+</compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="species_109786" name="p-S259,S621-RAF1 [cytosol]" metaid="metaid_3" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_3">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3158"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00046"/>
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_48888" name="YWHAB [cytosol]" metaid="metaid_5" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_5">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2686"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_148486"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109787" name="p-Raf1(S259,S621):14-3-3 protein beta/alpha [cytosol]" metaid="metaid_7" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P31946,P04049)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_7">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4612"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109794" name="Activated RAF1 complex:MEK1 [plasma membrane]" metaid="metaid_11" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_11">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4256"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_113592" name="ATP [cytosol]" metaid="metaid_13" sboTerm="SBO:0000247" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome SimpleEntity.  This is a small compound.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_13">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00002"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2812"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15422"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109793" name="14-3-3:p-S259,Y340,Y341,S621-RAF1:RAS:GTP [plasma membrane]" metaid="metaid_15" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_15">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4906"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109837" name="p-S218,S222-MAP2K1 [cytosol]" metaid="metaid_17" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_17">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_5701"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00046"/>
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_29370" name="ADP [cytosol]" metaid="metaid_19" sboTerm="SBO:0000247" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome SimpleEntity.  This is a small compound.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_19">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16761"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00008"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2741"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_112406" name="Activated RAF1 complex:MEK [plasma membrane]" metaid="metaid_21" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_21">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3953"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P36507"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109788" name="RAS:RAF [plasma membrane]" metaid="metaid_24" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_24">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3036"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109789" name="14-3-3:p-S259,S621-RAF1:RAS:GTP [plasma membrane]" metaid="metaid_27" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_27">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3642"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109783" name="p21 RAS:GTP [plasma membrane]" metaid="metaid_30" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_30">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4782"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_112336" name="MEK1 [cytosol]" metaid="metaid_36" sboTerm="SBO:0000240" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome DefinedSet.  This is a list of alternative entities, any of which can perform the given function.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_36">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2607"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_112340" name="p-MEK1 [cytosol]" metaid="metaid_39" sboTerm="SBO:0000240" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome DefinedSet.  This is a list of alternative entities, any of which can perform the given function.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_39">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3339"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_157415" name="p-T161-CDK1 [cytosol]" metaid="metaid_42" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_42">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P06493"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_5391"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109795" name="Activated RAF1 complex:MEK2 [plasma membrane]" metaid="metaid_45" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Reactome uses a nested structure for complexes, which cannot be fully represented in SBML.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_45">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4223"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01111"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P31946"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01116"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P36507"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109848" name="p-S,T-MAP2K2 [cytosol]" metaid="metaid_49" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_49">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P36507"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3571"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00046"/>
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_59282" name="MAPK1 [cytosol]" metaid="metaid_55" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_55">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_5485"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P28482"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109849" name="MEK2:ERK-2 [cytosol]" metaid="metaid_57" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P36507,P28482)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_57">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_5435"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P36507"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P28482"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_59284" name="MAPK3 [cytosol]" metaid="metaid_61" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_61">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4130"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P27361"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109838" name="MEK1:ERK-1 [cytosol]" metaid="metaid_63" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (Q02750,P27361)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_63">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_5539"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P27361"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_163338" name="unidentified protein tyrosine kinase [plasma membrane]" metaid="metaid_70" sboTerm="SBO:0000297" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome GenomeEncodedEntity.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_70">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_4938"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109843" name="phospho-ERK-1:MEK1 [cytosol]" metaid="metaid_73" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (Q02750,P27361)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_73">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2796"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P27361"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109842" name="p-T202,Y204-MAPK3 [cytosol]" metaid="metaid_75" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_75">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3037"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P27361"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109854" name="phospho-ERK-2:MEK2 [cytosol]" metaid="metaid_81" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P36507,P28482)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_81">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3199"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P36507"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P28482"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_167204" name="HRAS:GTP [plasma membrane]" metaid="metaid_86" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P01112,15996)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_86">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_24217"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_206716" name="Ras:GTP:p-Raf1(S259,S621) [plasma membrane]" metaid="metaid_89" sboTerm="SBO:0000253" compartment="compartment_876">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: ((P01112,15996),P04049)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_89">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_24177"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15996"/>
+                  <rdf:li rdf:resource="urn:miriam:kegg.compound:C00044"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P01112"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P04049"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_112398" name="MEK [cytosol]" metaid="metaid_93" sboTerm="SBO:0000240" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome DefinedSet.  This is a list of alternative entities, any of which can perform the given function.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_93">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2275"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P36507"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:Q02750"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109844" name="p-T202, Y204 MAPK3 dimer [cytosol]" metaid="metaid_103" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P27361,P27361)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_103">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3932"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P27361"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109845" name="p-T202, Y204 MAPK3 dimer [nucleoplasm]" metaid="metaid_106" sboTerm="SBO:0000253" compartment="compartment_7660">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P27361,P27361)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_106">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3152"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P27361"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109853" name="p-T185,Y187-MAPK1 [cytosol]" metaid="metaid_109" sboTerm="SBO:0000297" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence.  This is a protein.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_109">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2640"/>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P28482"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00047"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.psi-mod:MOD%3A00048"/>
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109855" name="p-T185,Y187 MAPK1 dimer [cytosol]" metaid="metaid_111" sboTerm="SBO:0000253" compartment="compartment_70101">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P28482,P28482)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_111">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_3688"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P28482"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species id="species_109856" name="p-Y185,Y187 MAPK1 dimer [nucleoplasm]" metaid="metaid_122" sboTerm="SBO:0000253" compartment="compartment_7660">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex.  Here is Reactomes nested structure for this complex: (P28482,P28482)</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_122">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_5046"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:uniprot:P28482"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="reaction_109804" name="p-RAF binds 14-3-3 beta/alpha" metaid="metaid_1" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Inactive Raf1 is associated in the cytoplasm with 1433. 1433 binds to Raf1 via the Ser259 phosphorylation site (S1). This interaction stabilises the inactive conformation of Raf1 in which the Rasbinding Cysteinerich domain (CRD) is obscured. The Raf1 molecule contains an additional p21rasbinding domain (RBD), a second serine phosphorylation site at S621 (S2) and two tyrosine phosphorylation sites (at 340, Y1 and 341, Y2).</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_1">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2158"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:9069260"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109804_input_109786" species="species_109786" metaid="metaid_4" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109804_input_48888" species="species_48888" metaid="metaid_6" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109804_output_109787" species="species_109787" metaid="metaid_8" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109841" name="RAF1  phosphorylates MEK1" metaid="metaid_9" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Active Raf1 phosphorylates MEK1/2 on Serine residues, converting ATP to ADP. The MEK1/2 kinase is now active.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_9">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016301"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_545"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109841_input_109794" species="species_109794" metaid="metaid_12" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109841_input_113592" species="species_113592" metaid="metaid_14" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109841_output_109793" species="species_109793" metaid="metaid_16" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109841_output_109837" species="species_109837" metaid="metaid_18" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109841_output_29370" species="species_29370" metaid="metaid_20" sboTerm="SBO:0000011" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_109841_catalyst_112406" species="species_112406" metaid="metaid_22" sboTerm="SBO:0000013"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="reaction_109802" name="Stabilisation of RAS:RAF by 14-3-3" metaid="metaid_23" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">1433 has been displaced from Ser259. 1433 may now bind its higher affinity Ser621 (S2) site. This stabilises an 'open' Raf1 conformation that is catalytically active, and bound to p21ras via both p21rasbinding domains, CRD and RBD.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_23">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_996"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:9069260"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109802_input_109788" species="species_109788" metaid="metaid_25" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109802_input_48888" species="species_48888" metaid="metaid_26" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109802_output_109789" species="species_109789" metaid="metaid_28" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109803" name="Transient dissociation of 14-3-3 upon Ras binding" metaid="metaid_29" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Activated p21ras (the GTPbound form) is associated with the plasma membrane. Inactive Raf1 is associated in the cytoplasm with 1433. 1433 binds to Raf1 via the Ser259 phosphorylation site (S1). This interaction stabilises the inactive conformation of Raf1 in which the Rasbinding Cysteinerich domain (CRD) is obscured. The Raf1 molecule contains an additional p21rasbinding domain (RBD), a second serine phosphorylation site at S621 (S2) and two tyrosine phosphorylation sites (at 340, Y1 and 341, Y2).Raf1 binds activated p21ras via the RBD. This displaces 1433 from Ser259 and unmasks the CRD.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_29">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_359"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:9069260"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109803_input_109783" species="species_109783" metaid="metaid_31" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109803_input_109787" species="species_109787" metaid="metaid_32" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109803_output_109788" species="species_109788" metaid="metaid_33" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109803_output_48888" species="species_48888" metaid="metaid_34" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_112342" name="Inactivation of MEK1 by p34cdc2" metaid="metaid_35" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">At the beginning of this reaction, 2 molecules of 'ATP', and 1 molecule of 'MEK1' are present. At the end of this reaction, 1 molecule of 'phospho_MEK1', and 2 molecules of 'ADP' are present. This reaction takes place in the 'cytosol' and  is mediated by the 'protein serine/threonine kinase activity' of 'phosphoCdc2 (Thr 161)'.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_35">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1836"/>
+                  <rdf:li rdf:resource="urn:miriam:ec:2.7.11"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004674"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_112342_input_112336" species="species_112336" metaid="metaid_37" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_112342_input_113592" species="species_113592" metaid="metaid_38" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_112342_output_112340" species="species_112340" metaid="metaid_40" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_112342_output_29370" species="species_29370" metaid="metaid_41" sboTerm="SBO:0000011" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_112342_catalyst_157415" species="species_157415" metaid="metaid_43" sboTerm="SBO:0000013"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="reaction_109852" name="RAF1 phosphorylates MEK2" metaid="metaid_44" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Active Raf1 phosphorylates MEK1/2 on Serine residues, converting ATP to ADP. The MEK1/2 kinase is now active.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_44">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0016301"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1727"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109852_input_109795" species="species_109795" metaid="metaid_46" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109852_input_113592" species="species_113592" metaid="metaid_47" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109852_output_109793" species="species_109793" metaid="metaid_48" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109852_output_109848" species="species_109848" metaid="metaid_50" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109852_output_29370" species="species_29370" metaid="metaid_51" sboTerm="SBO:0000011" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_109852_catalyst_112406" species="species_112406" metaid="metaid_52" sboTerm="SBO:0000013"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="reaction_109858" name="MEK2 binds ERK-2" metaid="metaid_53" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">In the cytoplasm activated MEK2 (Serine phosphorylated) may encounter monomeric, inactive ERK2. ERK2 in its inactive form is not phosphorylated on a critical Threonine (T183) and a critical Tyrosine (Y185).</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_53">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_495"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:8388392"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109858_input_109848" species="species_109848" metaid="metaid_54" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109858_input_59282" species="species_59282" metaid="metaid_56" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109858_output_109849" species="species_109849" metaid="metaid_58" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109857" name="MEK1 binds ERK-1" metaid="metaid_59" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">In the cytoplasm activated MEK1 (Serine phosphorylated) may encounter monomeric, inactive ERK1. ERK1 in its inactive form is not phosphorylated on a critical Threonine (T) and a critical Tyrosine (Y).</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_59">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1780"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:8388392"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109857_input_109837" species="species_109837" metaid="metaid_60" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109857_input_59284" species="species_59284" metaid="metaid_62" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109857_output_109838" species="species_109838" metaid="metaid_64" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109829" name="Stabilisation of RAF by further phosphorylation" metaid="metaid_65" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">An unidentified protein tyrosine kinase located in the plasma membrane phosphorylates tyrosine residues at 340 and 341 (Y1, Y2 in diagram) of Raf1. This serves to further stabilise the active 'open' Raf1 conformation. While the kinase has not been definitively identified, Src is a plausible candidate: coexpression of Raf1 and Src in Sf9 cells resulted in phosphorylation of Y340/Y341 and enzymatic activationof Raf1; Raf1 interacts with Src and coimmunoprecipitates with Src/Fyn in NIH3T3 cells. </p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_65">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:ec:2.7.10"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_525"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004713"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:9069260"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109829_input_109789" species="species_109789" metaid="metaid_66" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109829_input_113592" species="species_113592" metaid="metaid_67" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109829_output_109793" species="species_109793" metaid="metaid_68" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109829_output_29370" species="species_29370" metaid="metaid_69" sboTerm="SBO:0000011" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_109829_catalyst_163338" species="species_163338" metaid="metaid_71" sboTerm="SBO:0000013"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="reaction_109863" name="Dissociation of phospho-ERK-1:MEK1" metaid="metaid_72" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">MEK1 dissociates from phosphoERK1, allowing phosphoERK1 to dimerise with another phosphoERK1.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_72">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1740"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109863_input_109843" species="species_109843" metaid="metaid_74" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109863_output_109842" species="species_109842" metaid="metaid_76" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109863_output_109837" species="species_109837" metaid="metaid_77" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109862" name="MEK2 phosphorylates ERK-2" metaid="metaid_78" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">MEK2 phosphorylates the critical Tyrosine and Threonine on ERK2, converting two ATP to ADP. Phosphorylation of ERK2 activates its kinase activity.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_78">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:ec:2.7.11"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2247"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004674"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:8388392"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109862_input_109849" species="species_109849" metaid="metaid_79" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109862_input_113592" species="species_113592" metaid="metaid_80" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109862_output_109854" species="species_109854" metaid="metaid_82" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109862_output_29370" species="species_29370" metaid="metaid_83" sboTerm="SBO:0000011" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_109862_catalyst_109849" species="species_109849" metaid="metaid_84" sboTerm="SBO:0000013"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="reaction_209207" name="Phosphorylated human RAF1 binds to RAS:GTP complex" metaid="metaid_85" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">A key event for Ras transformation involves the direct physical association between Ras and the Raf1 kinase. This interaction promotes both Raf translocation to the plasma membrane and activation of Raf kinase activity.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_85">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_23877"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:7811320"/>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:7730360"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_209207_input_167204" species="species_167204" metaid="metaid_87" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_209207_input_109786" species="species_109786" metaid="metaid_88" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_209207_output_206716" species="species_206716" metaid="metaid_90" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109830" name="Activated RAF1 complex binds MEK" metaid="metaid_91" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">MEK1/2 have a proline rich domain (P) and critical Serine residues  (MEK1 S218/222, MEK2 unknown, S) upon which the molecules may be phosphorylated. MEK1/2 are found in the cytoplasm of unstimulated cells.MEK1/2 bind to active Raf1 via the prolinerich domain. Active Raf1 is able to phosphorylate target Serine and Threonine residues in the presence of ATP.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_91">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_143"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109830_input_109793" species="species_109793" metaid="metaid_92" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109830_input_112398" species="species_112398" metaid="metaid_94" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109830_output_112406" species="species_112406" metaid="metaid_95" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109860" name="MEK1 phosphorylates ERK-1" metaid="metaid_96" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">MEK1 phosphorylates the critical Tyrosine and Threonine on ERK1, converting two ATP to ADP. Phosphorylation of ERK1 activates its kinase activity.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_96">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_136"/>
+                  <rdf:li rdf:resource="urn:miriam:ec:2.7.11"/>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0004674"/>
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:pubmed:8388392"/>
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109860_input_109838" species="species_109838" metaid="metaid_97" sboTerm="SBO:0000010"/>
+          <speciesReference id="speciesreference_109860_input_113592" species="species_113592" metaid="metaid_98" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109860_output_109843" species="species_109843" metaid="metaid_99" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109860_output_29370" species="species_29370" metaid="metaid_100" sboTerm="SBO:0000011" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_109860_catalyst_109838" species="species_109838" metaid="metaid_101" sboTerm="SBO:0000013"/>
+        </listOfModifiers>
+      </reaction>
+      <reaction id="reaction_109867" name="Nuclear translocation of phospho-ERK-1 dimer" metaid="metaid_102" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">PhosphoERK1 dimer is translocated from cytosol to nucleoplasm.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_102">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000189"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1866"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109867_input_109844" species="species_109844" metaid="metaid_104" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109867_output_109845" species="species_109845" metaid="metaid_107" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109866" name="Dimerisation of phospho-ERK-2" metaid="metaid_108" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Two phosphoERK2 molecules dimerise and enter the nucleus, where they may phosphorylate downstream targets.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_108">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_2196"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109866_input_109853" species="species_109853" metaid="metaid_110" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109866_output_109855" species="species_109855" metaid="metaid_112" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109865" name="Dimerisation of phospho-ERK-1" metaid="metaid_113" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">Two phosphoERK1 molecules dimerise and enter the nucleus, where they may phosphorylate downstream targets.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_113">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1289"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109865_input_109842" species="species_109842" metaid="metaid_114" sboTerm="SBO:0000010" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109865_output_109844" species="species_109844" metaid="metaid_115" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109864" name="Dissociation of phospho-ERK-2:MEK2" metaid="metaid_116" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">MEK2 dissociates from phosphoERK2, allowing phosphoERK2 to dimerise with another phosphoERK2.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_116">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_1019"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109864_input_109854" species="species_109854" metaid="metaid_117" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109864_output_109853" species="species_109853" metaid="metaid_118" sboTerm="SBO:0000011"/>
+          <speciesReference id="speciesreference_109864_output_109848" species="species_109848" metaid="metaid_119" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="reaction_109868" name="Nuclear translocation of phospho-ERK-2 dimer" metaid="metaid_120" reversible="false">
+<notes><p xmlns="http://www.w3.org/1999/xhtml">PhosphoERK2 dimer is translocated from cytosol to nucleoplasm.</p></notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#metaid_120">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0000189"/>
+                  <rdf:li rdf:resource="urn:miriam:reactome:REACT_487"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference id="speciesreference_109868_input_109855" species="species_109855" metaid="metaid_121" sboTerm="SBO:0000010"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="speciesreference_109868_output_109856" species="species_109856" metaid="metaid_123" sboTerm="SBO:0000011"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
