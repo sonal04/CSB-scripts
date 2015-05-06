@@ -40,4 +40,11 @@ for my_pathway in ["./pathways/AKT.xml", "./pathways/PDGF.xml", "./pathways/RAF.
     print()
 
 
-save_model(comple_model, "merged_signaling.xml")
+my_expressions = load_reactions("AKT_expressions.txt")
+
+for reac in comple_model.reactions:
+    if not eval_reac(reac, my_expressions, threshold=15, def_exp=False):
+        reac.delete()
+
+print("In model (after filtration there are) there are {} genes left:".format(len(comple_model.reactions)))
+#save_model(comple_model, "merged_signaling.xml")

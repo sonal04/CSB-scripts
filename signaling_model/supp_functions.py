@@ -110,14 +110,33 @@ def build_gene_rela(model, modif, or_linked, spec_genes):
         react.gene_reaction_rule = " AND ".join(list(all_genes) + or_genes)
 
 
-# def eval_reac(reac, expressions, threshold=5, def_exp=True):
-#     """
-#     Evaluates if given cobra reaction is possible given protein expressions
-#     threshold: minimal treshold to consider it as expressed
-#     def_exp: True if genes not present in expression should be considered as expressed
-#     """
-#     rule = reac.gene_reaction_rule
-#     boolenized = {gene: expressions[gene] > threshold for gene in expressions}
+def eval_reac(reac, expressions, threshold=5, def_exp=False):
+    """
+    Evaluates if given cobra reaction is possible given protein expressions
+    threshold: minimal treshold to consider it as expressed
+    def_exp: True if genes not present in expression should be considered as expressed
+    """
+    rule = reac.gene_reaction_rule
+    boolenized = {gene: int(expressions[gene]) > threshold for gene in expressions}
+    genes = set(re.findall(r'[A-Z0-9]+', rule)) - set(['AND', 'OR'])
+    for gene in genes:
+        re_gene = r"\b{}\b".format(gene)
+        rule = re.sub(re_gene, str(boolenized.get(gene, def_exp)), rule)
+        rule = rule.replace('AND', 'and')
+        rule = rule.replace('OR', 'or')
+    return eval(rule)
+
+
+def load_reactions(f_path):
+    exp_dict = {}
+    with open(f_path, 'r') as handle:
+        for line in handle:
+            line = line.strip()
+            if not line:
+                continue
+            line = line.split()
+            exp_dict[line[0]] = float(line[1])
+    return exp_dict
 
 
 def save_model(model, sa_file):
